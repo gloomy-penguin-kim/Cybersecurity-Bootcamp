@@ -1,0 +1,60 @@
+281060500
+
+
+
+learning objectives 
+  - understanding how AI is used in cybersecurity DEFENSE 
+  - learn about specificia AI/ML techniquies for threat detection and prevention 
+  - gain hands-on experience with AI tools in Cybercecurity defense 
+
+AI/ML techniques for cybersecurity defense
+  - automation and efficiency 
+  - real-time analysis 
+  - managing data volumes
+
+AI/M: three types of methods for threat detection 
+  - anomaly detection 
+    - deviation from the norm; curucual for spotting potention breatches that dont match known pattern 
+  - signature based detection 
+    - signatured based detection uses KNOWN patters of malicious activity to detect threats 
+  - behavioral analysis
+    - typicallty user behavior; monitors user behavior for suspicious activities 
+    - identified a certain type of behavior "frogesters" would do: testing the limit of transfer after login 
+
+EICAR.ORG 
+  - eicar-standard-antivirus-test-files on github 
+
+DLP: Data Loss Prevention 
+  - featuer vs whole platform 
+  - identitifies patterns in sets of data 
+
+Activity:
+  use AI/ChatGPT to analyze several viruses and how to mitigate their effects
+
+malware
+  - malicious softeare 
+  - comes inv various forms 
+  - virus: type of malware, malicous code, 
+  - worms: 
+    - try to replicated themselves to spread to other computers
+  - trojans: 
+    - also malicious software, disguise itself in legit downloads
+  - ransomware: 
+    - encrypts users' data and demands money to decrypt it 
+  - sypware: 
+    - observes and detects what the user/system is doing and reports back 
+
+how is AI/ML helpful? 
+  - data analysis  
+  - pattern recognition
+
+antivirus software 
+  - 
+
+security information and event managaement (SIEM) systems 
+  - splunk 
+  - integrates AI and ML for real time malware detection 
+  - collect and analyze security 
+  -  
+
+  APT - advanced persistent threat 

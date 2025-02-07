@@ -1,0 +1,46 @@
+3.2 Lesson 2: How Sweet is the Terminal
+Lesson 2: How Sweet is the Terminal?
+Overview
+
+In today's class, you will expand their command-line skills by working in the terminal to complete tasks that require file searching and bulk operations. Throughout class, you will complete a series of activities involving the man and file preview commands.
+What You’ll Learn
+
+By the end of the class, you will be able to do the following:
+
+    Identify and explain the structure of a terminal command
+
+    Explain how options modify the default behavior of a terminal command
+
+    Use commands like head, tail, more, and less to preview files in the command line
+
+    Combine the above commands in sequence to accomplish relevant IT tasks
+
+Slide Deck
+
+Link
+
+Links to an external site.
+Student Guide
+
+Student Guide M3.2
+
+Links to an external site.
+Today's Activities:
+
+Oh Henry, What did you Do?: In this activity, you'll use preview commands to continue investigating the malicious employees who may be selling secret recipes to Candy Corp's rival organization, Sugar Corp.
+
+    Activity File: Oh Henry, What Did You Do? 
+
+    Links to an external site.
+
+Find the Kit Cat Burglar: In this activity, you'll use all the commands you've learned to help Candy Corp identify the insider selling secret recipes to Sugar Corp.
+
+    Activity File: Internal Investigation: Find the Kit cat Burglar 
+
+    Links to an external site.
+
+Learn New Commands: In this final command-line activity of the day, you'll use man pages to learn new commands that will help you conduct another investigation at Candy Corp.
+
+    Activity File: Learn New Commands 
+
+

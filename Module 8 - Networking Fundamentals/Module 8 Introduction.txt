@@ -1,0 +1,40 @@
+Introduction to Module 8
+Networking Fundamentals
+In this module, you will focus on one of the most important foundational topics in cybersecurity: Computer networking. Understanding how systems and devices are networked together to exchange information is a vital skill for cybersecurity professionals.
+
+The first day of this module will cover the client–server model and network design, and how IP addresses and DNS connect systems.
+
+The second day will cover additional foundational topics such as ports, protocols, and the OSI model. You will then use a networking tool called Wireshark to visualize and analyze networking concepts.
+
+The third day will dive deeper into OSI layers 2, 3, and 4. You will learn tools and protocols related to each layer and perform a SYN scan to search for open ports on a network.
+
+What to Be Aware Of
+On Day 1, during the Network Devices activity, you will use a web-based tool called draw.io to design a network.
+
+On Day 2, you will cover the OSI model. It can be difficult to grasp at first, so don't be discouraged if you don't understand it immediately. You may need to review the OSI layers a few times to understand fully.
+
+Security+ Domains
+This module covers portions of the following domains on the Security+ exam:
+
+1.0 General Security Concepts
+3.0 Security Architecture
+For more information on these Security+ domains, refer to the following resource: 
+
+Security+ exam objectivesLinks to an external site.
+Looking Forward
+Next week, you will cover more advanced networking concepts such as DHCP, NAT, routing, wireless technology, DNS records, and email networking. We will wrap up the two weeks of networking with a review, followed by an exciting capture-the-flag networking-based competition.
+
+Further Reading and Resources
+Day 1 Resources
+
+GeeksForGeeks.org: Basics of computer networkingLinks to an external site.
+howdns.works: How DNS worksLinks to an external site.
+Day 2 Resources
+
+GeeksForGeeks.org: Layers of the OSI modelLinks to an external site.
+cybrary.it: A trick to remember the OSI model 7 layersLinks to an external site.
+YouTube: Wireshark tutorial for beginnersLinks to an external site. https://www.youtube.com/watch?v=TkCSr30UojM
+
+Day 3 Resources
+
+Wikipedia: ARP spoofingLinks to an external site.
