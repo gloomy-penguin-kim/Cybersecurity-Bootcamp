@@ -1,0 +1,51 @@
+2.1Lesson 1: AI in Cybersecurity
+Lesson 1: ML/AI in Cybersecurity
+Overview
+
+Today's class will provide you with an overview of artificial intelligence (AI) and machine learning (ML) concepts, their differences, and their importance in cybersecurity. We will also emphasize ethical considerations and bias in AI.
+What You’ll Learn
+
+By the end of the class, you will have covered the following concepts:
+
+    Definition of AI and ML.
+    Differences between AI and traditional programming.
+    Types of AI (narrow AI vs. general AI).
+    Importance of AI/ML in cybersecurity.
+    Ethics and bias in AI.
+    The use of ChatGPT and similar tools in cybersecurity.
+
+Lab Notes
+
+This class will use ChatGPT
+
+Links to an external site.
+Slide Deck
+
+Link
+
+Links to an external site.
+Student Guide
+
+Student Guide M2.1
+
+Links to an external site.
+Today's Activities:
+
+Examining Accuracy and Bias in AI: The AI cyberscape is changing constantly. In this activity, you will be using the internet to research recent examples of AI problems in accuracy and bias in the news.
+
+Activity: Examining Accuracy and Bias in AI
+
+Links to an external site.
+
+Exploring AI and ML in Anomaly Detection: AI and ML can be used for research and since the data is pulled from existing sources,it is important to be able to assess the accuracy of the information retrieved.
+
+In this activity, you will use AI to research how AI can detect anomalies using AI.
+
+Activity: Exploring AI and ML in Anomaly Detection
+
+Links to an external site.
+
+ChatGPT in Cybersecurity: By using ChatGPT, cybersecurity teams can enhance their training with interactive scenarios, instant answers to complex questions, and real-time feedback. This approach ensures that team members are well-prepared to handle cybersecurity threats effectively.
+
+Activity: ChatGPT in CyberSecurity
+

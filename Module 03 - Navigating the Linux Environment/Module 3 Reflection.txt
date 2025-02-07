@@ -1,0 +1,26 @@
+Module 3 Reflection
+
+Congratulations on completing your first Linux module. This is the start of four modules teaching you the the the basics of Linux administration, configuration, and security hardening. This is a valuable skill set that is in high demand among employers. Here's you have accomplished:
+
+    You've discovered the history of Linux and Terminal, learning the basics of Linux, including an introduction to the command line and some essential commands used for file and directory management.
+
+    You've learned the terminal commands for searching and previewing files and directories, exploring advanced command-line tools and techniques, focusing on using the find command to locate specific files and directories based on various criteria.
+
+    You've practiced real-world applications of Linux commands, applying you command-line skills to gathering digital evidence in a simulated cybersecurity scenario and consolidating your knowledge through practical activities.
+
+Reflection Questions
+
+    What new insights have you developed into the use of Linux on so many devices around you?
+        Reflect on how many different devices surrounding you that you now know are running a variation of Linux.
+
+    What challenges have you faced while shifting from a GUI interface to a command line?
+        Consider how you would use these new skills on a daily basis.
+
+    Would you consider shifting to Linux as a primary computer instead of Windows or Mac?
+        Think about the different distributions of Linux you learned about on Day 1.
+
+Moving Forward
+
+Linux makes up a significant majority of the servers that make up the internet. Linux variants surround you in the form of cars, phones, printers, thermostats, etc. Knowing how to maintain, administrate, and secure these computers is critical to the security of the interconnected world. In the next few modules, you will be expanding your command-line skills to add users, install programs, and set permissions on Linux machines. As we move forward, consider setting up a virtual machine or a live-boot version of Linux to continue practicing your skills.
+
+

@@ -1,0 +1,26 @@
+10.2 Lesson 2: Hardening System Configurations
+Overview
+
+On Day 2, you will continue to harden BSC's Linux server. This day's focus is on BSC’s Linux server's system settings such as SSH, system packages, services, and logging configurations.
+Project Objectives
+
+By the end of today's class, you will:
+
+    Audit and secure the organization's SSH settings.
+    Review and update system packages.
+    Disable any unnecessary services.
+    Enable and configure logging.
+
+Student Guide
+
+This is a project week, so there are no accompanying student guides.
+Lesson Slides
+
+Link
+
+Links to an external site.
+Today’s Activities
+
+    Day 2 Project Tasks: 
+
+Links to an external site. In today's portion of Project 1, you will continue hardening the Linux server by configuring the SSH settings, system packages, services, and logging configurations.

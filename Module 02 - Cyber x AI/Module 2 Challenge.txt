@@ -1,0 +1,179 @@
+ Question 1
+5 / 5 pts
+What is a primary way that AI contributes to cybersecurity?
+  By generating strong passwords
+  By automating the response to detected threats
+Correct. AI enhances cybersecurity by automating responses to security incidents and threats, reducing the time to respond and the potential for human error.
+  By managing user access to websites
+  By increasing the need for human intervention
+ 
+Question 2
+5 / 5 pts
+What role does machine learning play in cybersecurity?
+  It decreases the accuracy of threat detection
+  It manually reviews security logs
+  It predicts and identifies unusual patterns that may signify threats
+Correct. ML algorithms are crucial in cybersecurity for their ability to learn and identify patterns from data, enabling the detection of anomalies that could indicate security threats.
+  It simplifies data encryption methods
+ 
+Question 3
+5 / 5 pts
+Why is bias in AI a significant concern in cybersecurity?
+  It can lead to less effective security measures
+Correct. Bias in AI can cause security systems to overlook or misidentify threats, leading to vulnerabilities in cybersecurity measures.
+  It reduces the cost of AI systems
+  It enhances the speed of AI decision-making
+  It simplifies regulatory compliance
+ 
+Question 4
+5 / 5 pts
+What is the importance of "narrow AI" in cybersecurity?
+  It focuses on performing any intellectual task a human can
+  It is designed for general-purpose use across various fields
+  It is specialized in one area, like spam detection or network monitoring
+Correct. Narrow AI is vital in cybersecurity because it specializes in specific tasks such as detecting spam or monitoring network traffic, making it highly effective at those tasks.
+  It replaces all security personnel
+ 
+Question 5
+5 / 5 pts
+Which of the following is a benefit of using AI in cybersecurity?
+  Decreased data processing speeds
+  Reduced efficiency in threat detection
+  Increased incidence of false positives
+  Enhanced ability to analyze massive volumes of data
+Correct. AI's ability to process and analyze large volumes of data rapidly and accurately is one of its main benefits in cybersecurity, enabling real-time threat detection and response.
+ 
+Question 6
+5 / 5 pts
+How does AI assist with the detection of phishing attempts?
+  By creating phishing emails
+  By identifying suspicious email patterns and content
+Correct. AI aids in cybersecurity by analyzing email characteristics and behaviors to identify and flag potential phishing attempts, thereby preventing data breaches and other security incidents.
+  By encouraging users to click on phishing links
+  By reducing the accuracy of spam filters
+ 
+Question 7
+5 / 5 pts
+What is a primary goal of using AI/ML in cybersecurity defense?
+  To enhance the creation of vulnerabilities
+  To facilitate threat detection and prevention
+Correct. AI and ML are crucial in cybersecurity defense for automating and enhancing threat detection and preventative measures.
+  To automate the creation of malware
+  To reduce the efficiency of security systems
+ 
+Question 8
+5 / 5 pts
+Which AI capability is most utilized in cybersecurity defense?
+  Predictive analytics
+Correct. Predictive analytics is a key capability of AI that helps in identifying potential future threats by analyzing patterns from past data.
+  Automated hacking
+  Content generation
+  Game development
+ 
+Question 9
+5 / 5 pts
+AI helps in cybersecurity defense by:
+  Slowing down system responses
+  Decreasing data accuracy
+  Reducing the time to respond to threats
+Correct. One of the significant benefits of AI in cybersecurity defense is its ability to quickly respond to threats, reducing potential
+  Increasing manual intervention
+ 
+Question 10
+5 / 5 pts
+What type of AI systems are primarily discussed in cybersecurity defense?
+  General AI
+  Narrow AI
+Correct. Narrow AI, focused on specific tasks like threat detection, is predominantly used in cybersecurity defense scenarios.
+  Emotional AI
+  Reactive machines
+ 
+Question 11
+5 / 5 pts
+How does ML contribute to cybersecurity defense according to the lesson?
+  By programming manual security tasks
+  By learning from data to improve threat detection
+Correct. ML algorithms continuously learn from security datasets to improve and automate threat detection over time.
+  By decreasing automation in security systems
+  By simplifying cyberattacks
+ 
+Question 12
+5 / 5 pts
+Which is NOT a role of AI in cybersecurity defense?
+  Creating phishing emails
+Correct. AI is used for defensive purposes like identifying malware and not for creating phishing emails, which is an offensive use.
+  Identifying malware
+  Automating system patching
+  Analyzing network traffic
+ 
+Question 13
+5 / 5 pts
+AI enhances cybersecurity defense by:
+  Enabling faster and more accurate threat analysis
+Correct. AI's ability to quickly and accurately analyze data is crucial for effective cybersecurity defense.
+  Requiring more human operators
+  Increasing the cost of security
+  Reducing the use of digital tools
+ 
+Question 14
+5 / 5 pts
+What is the main focus of using AI/ML in cybersecurity offense?
+  To support manual hacking efforts
+  To decrease the effectiveness of cyber defenses
+  To identify and exploit vulnerabilities
+Correct. AI/ML in an offensive role focuses on proactively identifying vulnerabilities that can be exploited.
+  To enhance user privacy
+ 
+IncorrectQuestion 15
+0 / 5 pts
+AI/ML assists in cybersecurity offense by:
+  Reducing the speed of vulnerability identification 
+  Making systems more susceptible to attacks
+  Increasing the effectiveness of cyberattacks
+Correct. By using AI/ML, attackers can increase the effectiveness and precision of their cyberattacks.
+  Strengthening cybersecurity laws
+ 
+Question 16
+5 / 5 pts
+In the context of cybersecurity offense, what role does predictive analytics play?
+  Predicting stock market trends
+  Predicting when users will change passwords
+  Identifying future security weaknesses
+Correct. Predictive analytics can foresee potential security issues, allowing for preemptive exploitation.
+  Forecasting weather patterns
+ 
+IncorrectQuestion 17
+0 / 5 pts
+Which of the following is not an application of AI in cybersecurity offense according to the lesson?
+  Enhancing firewalls   
+Correct. Enhancing firewalls is a defensive use of AI, not an offensive one.
+  Automated penetration testing
+  Social engineering attacks
+  Vulnerability scanning  
+ 
+Question 18
+5 / 5 pts
+How does AI facilitate social engineering in cybersecurity offense?
+  By generating convincing phishing messages
+Correct. AI can craft highly convincing social engineering attacks, such as phishing emails, that mimic legitimate sources.
+  By creating antivirus software
+  By improving network speed
+  By encrypting files
+ 
+Question 19
+5 / 5 pts
+What is a critical role of ML in cybersecurity offense?
+  Simplifying user interfaces
+  Reducing data breaches
+  Learning and adapting to security measures
+Correct. ML can adapt to existing security protocols to find new ways to breach them effectively.
+  Decreasing operational efficiency
+ 
+Question 20
+5 / 5 pts
+Which is a direct benefit of using AI in cybersecurity offense?
+  Increasing cybersecurity job opportunities
+  Reducing the need for cybersecurity
+  Automating complex and repetitive tasks in vulnerability exploitation
+Correct. AI automates and optimizes tasks such as scanning for vulnerabilities, making cyber offenses more efficient and sophisticated.
+  Promoting ethical hacking practices

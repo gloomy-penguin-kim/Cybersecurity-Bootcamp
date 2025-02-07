@@ -1,0 +1,115 @@
+Introduction to Module 7
+Windows Administration and Hardening
+
+This module serves as an introduction to the Windows operating system. We will learn Windows-based system administration. We will cover the Windows operating system and command line, and perform basic system administration tasks. We will also depart from the standard command line by using the PowerShell command-line scripting language to create and run scripts. Finally, we will manage Active Directory Domain Services and secure a Windows Server domain.
+Security+ Domains
+
+This module covers portions of the following domain on the Security+ exam:
+
+    3.0 Security Architecture
+
+For more information about these Security+ domains, refer to the following resource:
+Security+ Exam Objectives
+
+Links to an external site.
+This Week’s Lab Environment
+
+In this module, you'll use an online lab environment. This environment consists of a Windows RDP host machine that houses two nested virtual machines: a Windows 10 machine and a Windows Server machine. Use the following credentials:
+
+    Windows 10 machine (used on Day 3):
+        Username: sysadmin
+        Password: cybersecurity
+
+    Windows Server machine (used on Day 3):
+        Username: sysadmin
+        Password: p4ssw0rd*
+
+What to Be Aware Of
+
+    Don't forget to shut down your virtual machines and your Windows lab at the end of each class and when they are not in use.
+
+    The following document contains a list of common Windows issues that may occur during this unit. Review the content to prepare for potential troubleshooting:
+        Windows Lab Environment Guide 
+
+        Links to an external site.
+
+Preview This Week’s Challenge
+
+For this week's Challenge assignment, you will create domain-hardening GPOs and revisit some PowerShell fundamentals.
+
+⚠️ The Day 3 activities must be fully completed to complete this activity. If they are not, you will need to refer to your student guides and set up your domain OUs, users, and groups.
+Looking Forward
+
+Next week, we'll move on to our Networking module! We will start by learning the fundamentals of network configurations, designs, protocols, and data communication. We'll also work on our web lab virtual machine again.
+Further Reading and Resources
+
+Day 1 Resources
+
+    SANS - Windows Command Line Cheat Sheet 
+
+Links to an external site.
+HowToGeek: Task Manager Guide
+Links to an external site.
+SS64: Windows Environment Variables
+Links to an external site.
+SS64: Command-Line Overview of wmic
+Links to an external site.
+Digital Trends: 32-bit vs. 64-bit
+Links to an external site.
+Microsoft | Docs: wmic
+Links to an external site.
+Digital Citizen: How to List All the Users on a Windows Computer
+Links to an external site.
+wikiHow: How to Add Users from CMD
+Links to an external site.
+Microsoft | Docs: Windows Release Information
+Links to an external site.
+Microsoft | Docs: net user
+Links to an external site.
+Microsoft | Docs: net localgroup
+Links to an external site.
+Microsoft | Support: Microsoft's net accounts documentation
+Links to an external site.
+Microsoft | Docs: Security Identifiers
+
+    Links to an external site.
+
+Day 2 Resources
+
+    Microsoft | Docs: PowerShell Cmdlet Overview 
+
+Links to an external site.
+SS64: PowerShell Parameters
+Links to an external site.
+Microsoft | Docs: PowerShell Pipelines
+Links to an external site.
+Chocolatey.org: Why Chocolatey?
+Links to an external site.
+Chocolatey.org: Choco Uninstall
+Links to an external site.
+Whatis.com: Circular Logging
+
+    Links to an external site.
+
+Day 3 Resources
+
+    Microsoft | Docs: Active Directory Domain Services 
+
+Links to an external site.
+Microsoft | Docs: Creating Active Directory Users
+Links to an external site.
+Microsoft | Docs: Creating Organizational Units
+Links to an external site.
+Microsoft | Docs: Active Directory Security Groups
+Links to an external site.
+Microsoft | Docs: Creating GPOs
+Links to an external site.
+Petri.com: Managing Group Policy Objects
+
+    Links to an external site.
+
+Challenge Resources
+
+    Microsoft | Docs: Access Control Lists 
+
+

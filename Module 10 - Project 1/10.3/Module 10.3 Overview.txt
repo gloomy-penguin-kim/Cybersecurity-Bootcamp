@@ -1,0 +1,25 @@
+10.3 Lesson 3: Scripting and Scheduling Your Tasks
+Overview
+
+On the last day of Project 1, you will conclude your hardening project by scripting and scheduling your tasks completed on Day 1 and Day 2.
+Project Objectives
+
+By the end of today's class, you will:
+
+    Script your hardening tasks.
+    Schedule your hardening scripts.
+    Complete the summary report.
+
+Student Guide
+
+This is a project week, so there are no accompanying student guides.
+Lesson Slides
+
+Link
+
+Links to an external site.
+Today’s Activities
+
+    Day 3 Project Tasks: 
+
+Links to an external site. In today's portion of Project 1, you will conclude your hardening project by scripting and scheduling your tasks completed on Day 1 and Day 2.

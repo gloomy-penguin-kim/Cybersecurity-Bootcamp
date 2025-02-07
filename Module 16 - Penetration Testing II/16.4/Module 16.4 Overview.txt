@@ -1,0 +1,37 @@
+16.4 Lesson 4: Abusing Active Directory Certificate Services
+Overview
+
+In today's class, you will learn how to exploit vulnerabilities within Active Directory Certificate Services (AD CS) to elevate privileges within a Windows domain environment. The focus will be on understanding how misconfigurations in AD CS can be leveraged by attackers to obtain Domain Admin privileges.
+What You'll Learn
+
+By the end of today's class, you'll be able to:
+
+    Understand the role of Active Directory Certificate Services in a Windows domain.
+
+    Identify common misconfigurations in AD CS that can be exploited.
+
+    Perform attacks to abuse AD CS, including certificate request forgery and exploitation of misconfigured templates.
+
+    Understand how these techniques can be used for privilege escalation and lateral movement in a domain environment.
+
+Today's Activities
+
+    Identifying misconfigurations: You are now tasked with abusing AD CS to identify misconfigurations. Activity File 
+
+Links to an external site.
+
+Exploiting vulnerable templates: You will exploit the vulnerabilities identified earlier by performing certificate request forgery against the vulnerable templates. You will use the obtained certificates to authenticate as privileged users and demonstrate how this leads to full domain compromise. Activity File
+
+    Links to an external site.
+
+Slideshow
+
+The lesson slides are available on Google Drive here: 16.4 Slides
+
+Links to an external site..
+Student Guide
+
+The student guide can be found on Google Drive here: 16.4 Student Guide
+
+Links to an external site.
+

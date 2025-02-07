@@ -1,0 +1,54 @@
+4.1 Lesson 1: Introduction to Linux
+Lesson 1: System Management Basics
+Overview
+
+This week, you'll work through a series of command-line exercises in which you will explore a Linux file system, collect evidence of a security breach, audit and reconfigure a Linux machine's user and group permissions, and take steps to harden the system.
+
+Today's class will introduce basic Linux management.
+What You’ll Learn
+
+By the end of today’s class, you’ll be able to do the following:
+
+    Manage processes with the top, ps, and kill commands.
+
+    Install packages by using apt install.
+
+    Use newly installed programs such as terminator as a network professional.
+
+Slide Deck
+
+Link
+
+Links to an external site.
+Student Guide
+
+Student Guide
+
+Links to an external site.
+Today’s Activities
+
+Process Investigation
+
+    In this activity, you will investigate all the processes running on the system to determine if there are any obvious processes that should not be running.
+
+    Your senior administrator has asked that you record snapshots of processes as well as review the processes in real time for anything suspicious.
+
+    If you find any processes amiss, kill them and add your findings to your report.
+
+You will need to run sudo bash /home/instructor/Documents/setup_scripts/instructor/processes.sh </dev/null &>/dev/null before starting this activity.
+
+    Activity File: Process Investigation 
+
+    Links to an external site.
+
+Installing Packages
+
+In this activity, we're going to explore some of the miscellaneous utilities that we can install onto our VMs. Specifically we'll be installing the following services:
+
+    emacs is a traditional file editor.
+
+    cowsay is a utility that takes in input and displays a cow repeating it.
+
+    Activity File: Installing Packages 
+
+

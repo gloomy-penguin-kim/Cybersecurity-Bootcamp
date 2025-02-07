@@ -1,0 +1,26 @@
+10.1 Lesson 1: Project Introduction and Linux Hardening
+Overview
+
+This week, you will be provided a fictional organization's poorly configured Linux server. You will audit and fix discovered security issues. This week will incorporate topics from many of our previous lessons, including: terminal, Linux OS, networking, log management, and scripting.
+Project Objectives
+
+By the end of today's class, you will:
+
+    Audit an organization's users and groups.
+    Update and enforce their password policies.
+    Update and enforce their sudo permissions.
+    Validate and update permissions on files and directories.
+
+Student Guide
+
+This is a project week, so there are no accompanying student guides.
+Lesson Slides
+
+Link
+
+Links to an external site.
+Today’s Activities
+
+    Day 1 Project Tasks: 
+
+Links to an external site. In today's portion of Project 1, you will harden an organization's Linux server's users, groups, files, and directories.

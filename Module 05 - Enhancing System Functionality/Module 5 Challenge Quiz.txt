@@ -1,0 +1,106 @@
+Score for this attempt: 100 out of 100
+Submitted Feb 1 at 7:18pm
+This attempt took 37 minutes.
+ 
+Question 1
+10 / 10 pts
+Which command is used to extract the TarDocs.tar archive to the current directory:
+  tar TarDocs.tar -x
+  untar TarDocs.tar
+  tar xvvf TarDocs.tar
+Correct, this extracts all files from the 'TarDocs.tar' archive into the current directory, with verbose output showing the files being extracted.
+  detar TarDocs.tar -xv
+ 
+Question 2
+10 / 10 pts
+Which command is used to create the Javaless_Doc.tar archive from the TarDocs/ directory, while excluding the TarDocs/Documents/Java directory?
+  tar Javaless_Docs.tar --exclude="TarDocs/"
+  tar cvvf +include Javaless_Docs.tar -exclude=TarDocs/
+  tar cvvf Javaless_Docs.tar --exclude="TarDocs/Documents/Java" TarDocs/
+Correct, this creates a new tar archive named 'Javaless_Docs.tar' from the contents of the 'TarDocs/' directory, while explicitly excluding the 'TarDocs/Documents/Java' directory from being included in the archive.
+  tar cvf Javaless_Docs.tar -detar="TarDocs/Documents/Java" TarDocs/
+ 
+Question 3
+10 / 10 pts
+Which command is used to ensure Java/ is not in the new Javaless_Docs.tar archive:
+  tar Javaless_Docs.tar | find Java
+  tar -tvf find Java | Javaless_Docs.tar
+  tar -tvf Javaless_Docs.tar | grep Java
+Correct, this lists the contents of the 'Javaless_Docs.tar' archive and then uses grep to search for any instances of the string "Java," which helps in verifying whether the 'Java/' directory is included in the archive.
+  tar -f Java ? Javaless_Docs.tar
+ 
+Question 4
+10 / 10 pts
+Why wouldn't you use the options -x and -c at the same time with tar?
+  Because -x and -c are used for the same function, so they would conflict with each other.
+  Because -x is for extracting archives and -c is for creating them, and you can't do both in the same operation.
+Correct! The -x option is for extracting files from an archive, while the -c option is for creating an archive. These operations are mutually exclusive, so you cannot perform them simultaneously.
+  Because using -x and -c together would overwrite the existing archive.
+  Because -x is used for compression, and -c is for extraction, which are opposite functions.
+ 
+Question 5
+10 / 10 pts
+What is the cron job command to schedule a weekly backup of the '/var/log/auth.log' file every Thursday at 6:00 AM?
+  0 6 0 0 4 tar -zcf /auth_backup.tgz /var/log/auth.log
+  0 0 6 0 4 tar -f /auth_backup.tgz /auth.log
+  0 6 * * 4 tar -zcf /auth_backup.tgz /var/log/auth.log
+Correct, this sets up a cron job that compresses and backs up the '/var/log/auth.log' file to '/auth_backup.tgz' every Thursday at 6:00 AM.
+  6 * * * 4 tar -zcf /auth_backup.tgz /var/auth.log
+ 
+Question 6
+10 / 10 pts
+What is the brace expansion command used to create four subdirectories named 'freemem', 'diskuse', 'openlist', and 'freedisk' within the '~/backups' directory?
+  mkdir -p ~/backups/{freemem,diskuse,openlist,freedisk}
+Correct, this uses brace expansion to efficiently create four separate subdirectories under the '~/backups' directory in a single command.
+  mkdr -p ~/{freemem,diskuse,openlist,freedisk}
+  mkdir -insert ~/backups/{freemem,diskuse,openlist,freedisk}
+  mkdir -p ~/backups/(freemem diskuse openlist freedisk)
+ 
+Question 7
+10 / 10 pts
+After running nano ~/system.sh to open system.sh in Nano, you find the following script:
+
+#!/bin/bash
+
+free -h > ~/backups/freemem/free_mem.txt
+
+du -h > ~/backups/diskuse/disk_usage.txt
+
+lsof > ~/backups/openlist/open_list.txt
+
+df -h > ~/backups/freedisk/free_disk.txt
+What is the purpose of this script?
+
+  To install necessary updates and patches to the system.
+  To optimize the system's performance by freeing up memory and disk space.
+  To monitor the system's memory, disk usage, open files, and free disk space in real-time.
+  To create backups of the system’s memory usage, disk usage, open files, and free disk space.
+Correct! The script is designed to create backups by saving information about the system's memory usage, disk usage, open files, and free disk space into specific text files.
+ 
+Question 8
+10 / 10 pts
+What is the command to make the system.sh script executable:
+  +777 system.sh
+  sudo chmod +x
+  system.sh +777
+  chmod +x system.sh
+Correct, this changes the file permissions of 'system.sh', adding the execute permission to it, which allows it to be run as a script on the system.
+ 
+Question 9
+10 / 10 pts
+What commands would you use to test the script and confirm its execution?
+  cat
+ Correct! The cat command is used to display the contents of each file, allowing you to verify that the script executed correctly and created the appropriate backups.
+  nano
+  ls
+  rm
+ 
+Question 10
+10 / 10 pts
+What is the command to copy system to system-wide cron directory?
+  sudo cp /etc/cron.weekly system.sh
+  sudo cp system.sh /etc/cron.week
+  sudo cp system.sh /etc/cron.weekly
+Correct, this uses sudo to execute the copy operation with superuser privileges, copying the 'system.sh' script to the '/etc/cron.weekly' directory, where it will be automatically executed on a weekly schedule by the cron daemon.
+  sudo cp system.sh /etc/weekly.cron
+Quiz Score: 100 out of 100

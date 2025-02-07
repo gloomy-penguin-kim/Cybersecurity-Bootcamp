@@ -1,0 +1,53 @@
+Introduction to Module 6
+Bash Scripting and Programming
+
+In the final module of our introduction to Linux system administration, we'll learn how to combine commands, create custom commands, and write Bash scripts. We'll use these skills to collect logs, audit and reconfigure a Linux machine, and take steps to harden the system.
+
+On Day 3, you will participate in a Linux scavenger hunt. In this extended activity, you'll put to use all the skills and tools that we've covered in the past three modules.
+Security+ Domains
+
+This module covers portions of the following domains on the Security+ exam:
+
+    2.0 Threats, Vulnerabilities, and Mitigations
+    3.0 Security Architecture
+
+For more information about these Security+ domains, refer to the following resource:
+
+    Security+ Exam Objectives 
+
+    Links to an external site.
+
+This Week’s Lab Environment
+
+This week you will continue to use your Linux lab except on Day 3, where you will use a new preconfigured, headless (GUI-less) Linux-Scavenger server listed as the "scavenger hunt" within the web lab.
+Preview This Week’s Challenge
+
+In this week's Challenge assignment, you will play the role of a criminal hacker. You will remotely access a victim's target machine, maintain access using a backdoor, and crack sensitive passwords in the /etc directory.
+
+You will learn a lot of new concepts in this assignment, and you may need to do a bit of research. This Challenge should be a fun, engaging, and hands-on introduction to maintaining access to a compromised system.
+note
+
+This activity is based on the "offense informs defense" philosophy. You will take on the role of a criminal hacker to better understand how exploits are carried out. Remember: To protect from attacks, you'll need to practice thinking like an attacker.
+Looking Forward
+
+In the next module, we'll apply some of the concepts and best practices that we learned in these Linux system administration modules to a new operating system: Windows. In the Windows System Administration and Hardening module, we will use the Windows command line and PowerShell to perform system administration tasks and write scripts in Windows 10. We will also learn how to manage and use Active Directory Domain Services.
+Further Reading and Resources
+
+    Day 1 and 2 Resources:
+
+        Linuxconfig.org: Bash Scripting Tutorial for Beginners 
+
+Links to an external site.
+
+Ryan's Tutorials: Bash Scripting Tutorial
+
+Links to an external site.
+
+Devhints.io: Bash Scripting Cheatsheet
+
+    Links to an external site.
+
+Day 3 Resources:
+
+    SSH.com: What is the SSH protocol? 
+

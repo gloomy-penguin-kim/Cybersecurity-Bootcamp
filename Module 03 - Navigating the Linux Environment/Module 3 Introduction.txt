@@ -1,0 +1,23 @@
+Introduction to Module 3
+Navigating the Linux Environment
+
+Introduction
+
+The Linux command line is a powerful tool for system administrators, developers, and IT professionals. It offers unmatched control and flexibility over the operating system. One of the essential commands in this environment is the find command, which is used for searching files and directories based on various criteria.
+
+Mastering these command-line tools is crucial for conducting everyday tasks in IT and security, and the best way to achieve this is through consistent practice. As users progress, they will also learn about permissions, file ownership, and access controls, all of which are fundamental concepts for managing a secure and efficient Linux environment.
+Lesson Plan Summaries
+
+Introduction to Linux
+
+On the first day of this module, you will be introduced to Linux and the various distributions (distros) of the operating system. Then, you will be introduced to some essential Linux commands, focusing on the commands used to navigate the file structure and command line.
+
+How Sweet is the Terminal The second unit of the module will expand your knowledge of the command line. You will learn how to preview files from the command line and use the man command to research additional options for commands.
+
+Commanding the Command Line The focus shifts on the final day, and you will learn how combining multiple commands enables you to conduct advanced file searches and bulk operations.
+Preview This Week's Challenge
+
+This module's Challenge is a multiple choice quiz.
+Looking Forward
+
+Next week, you will further develop your advanced file management skills, as we cover the creation of new users and file permissions.

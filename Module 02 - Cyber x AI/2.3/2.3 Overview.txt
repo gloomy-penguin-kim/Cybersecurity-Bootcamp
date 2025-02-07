@@ -1,0 +1,51 @@
+2.3 Lesson 3: AI Cybersecurity Offense
+Lesson 3: ML/AI in Cybersecurity Offense
+Overview
+
+In today's class, you will dive into the critical role that Artificial Intelligence (AI) and Machine Learning (ML) play in cybersecurity offense. These advanced technologies are transforming the way we identify and address vulnerabilities in systems, making our defenses stronger and more proactive.
+What You’ll Learn
+
+By the end of the class, you will understand the concepts of:
+
+    Understanding how AI is used in cybersecurity offense.
+    Learn about specific AI/ML techniques for offensive security.
+    Gain hands-on experience with AI tools used in cybersecurity offense
+
+Lab Notes
+
+This class will use both ChatGPT
+Links to an external site. and WhiteRabbitNeo
+
+Links to an external site..
+
+Note that the free version of WhiteRabbitNeo does limit the amount of searches that can be done in a 24 hour period to 25.
+Slide Deck
+
+Link
+
+Links to an external site.
+Student Guide
+
+Student Guide M2.3
+
+Links to an external site.
+Today's Activities:
+
+Analyzing APTs with AI
+
+In this activity, you will be researching APT threats targetting financial organizations and summarizing the results using ChatGPT.
+
+Activity File: Analyzing APTs with AI
+
+Links to an external site.
+
+Generating Exploits with AI
+
+In this activity, you will be using ChatGPT and WhiteRabbitNeo to generate an exploit to analyze.
+
+Think like a hacker and choose a vunerability based on your own network.
+
+Activity File: Generating Exploits in AI
+
+Links to an external site.
+

@@ -1,0 +1,27 @@
+SOAR - security orchestration automoation and response
+	- automates a whole bunch of tasks, if you have a playbook when a user clicks a phishing email it will do this response automatically for you 
+
+importance of AI and ML in cybersecurity 
+	05 - enhancement of real-time response
+	06 - automation of routine tasks (made for this) 
+	07 - predictive capabilities 
+
+
+Narrow vs General AI 
+	- 
+
+Reserach with AI 
+	- Use AI For data analysis 
+	- Gernerate original insights
+	- cross verify information
+	- draft with care 
+		- (you can ask AI for its sources)
+	- maintain academic integrity 
+
+Bias in AI 
+	- when AI systems make decisions that relfect human predujices leading to unfair or discriminatory outcomes 
+	- baised training data: skew AI decision making process, 
+		- eg, facial recognition of people, using only light skinned people, bias on error rate for darker skinned people
+	- based algorithims: the algorithm themselves can introduce or amploify bias, affecting the AI's outputs 
+	- biased human decisions: human choices in designing and implementing AI can lead to biased systems if not carefully managed 
+

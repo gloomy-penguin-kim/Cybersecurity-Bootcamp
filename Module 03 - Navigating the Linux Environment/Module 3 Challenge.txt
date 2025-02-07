@@ -1,0 +1,179 @@
+ Question 1
+5 / 5 pts
+Which of the following is NOT a Linux distribution?
+  Ubuntu
+  Fedora
+  Windows
+Correct! Windows is an operating system developed by Microsoft, whereas Ubuntu, Fedora, and CentOS are popular Linux distributions.
+  CentOS
+ 
+Question 2
+5 / 5 pts
+Which command is used to list the contents of a directory in Linux?
+  cd
+  mkdir
+  ls
+Correct! The ls command is used to list the contents of a directory. The cd command is for changing directories, the mkdir command is for creating directories, and the cat command is for displaying file contents.
+  cat
+ 
+Question 3
+5 / 5 pts
+To create a new directory called "new_folder", which command should you use?
+  mkdir new_folder
+Correct! The mkdir command is used to create new directories. The touch command creates files, the rm command removes files or directories, and the mv command moves or renames files or directories.
+  touch new_folder
+  rm new_folder
+  mv new_folder
+ 
+Question 4
+5 / 5 pts
+Which command is used to display the contents of a file in Linux?
+  echo
+  cp
+  cat
+Correct! The cat command is used to display the contents of a file. echo prints text to the terminal, cp copies files or directories, and rmdir removes empty directories.
+  rmdir
+ 
+Question 5
+5 / 5 pts
+How do you change the current directory to a directory called "documents"?
+  cd documents
+Correct. The cd command is used to change the current directory. ls lists directory contents, mv moves or renames files or directories, and cp copies files or directories.
+  ls documents
+  mv documents
+  cp documents
+ 
+Question 6
+5 / 5 pts
+Which command would you use to remove an empty directory named "old_folder"?
+  rmdir old_folder
+Correct. The rmdir command is used to remove empty directories. 
+  rm -rf old_folder
+  rm old_folder
+  mv old_folder
+ 
+Question 7
+5 / 5 pts
+Which command is used to create an empty file named "file.txt"?
+  mkdir file.txt
+  touch file.txt
+Correct! The touch command is used to create an empty file or update the timestamp of an existing file. mkdir creates directories, cat displays file contents, and echo prints text to the terminal.
+  cat file.txt
+  echo file.txt
+ 
+Question 8
+5 / 5 pts
+Which command can be used to view the beginning of a file in the terminal?
+  head
+Correct! The head command is used to display the first few lines of a file. tail shows the last few lines, and more and less are used for paging through files.
+  tail
+  more
+  less
+ 
+Question 9
+5 / 5 pts
+How can you view the manual page for a command in the terminal?
+  man command_name
+Correct! The man command is used to display the manual page for a specific command, providing detailed information on its usage.
+  help command_name
+  manual command_name
+  info command_name
+ 
+Question 10
+5 / 5 pts
+Which command allows you to preview a file one screen at a time?
+  head
+  tail
+  more
+Correct! The more command lets you preview the contents of a file one screen at a time, making it easier to read large files.
+  echo
+ 
+Question 11
+5 / 5 pts
+What is the function of the | (pipe) symbol in the command line?
+  Redirect output to a file
+  Combine two or more commands
+Correct! The pipe symbol | is used to pass the output of one command as the input to another command, allowing for complex command sequences.
+  Terminate a command
+  Display command history
+ 
+Question 12
+5 / 5 pts
+To search for a string within files using the terminal, which command would you use?
+  find
+  grep
+Correct! The grep command is used to search for a specific string within files and display the matching lines.
+  locate
+  search
+ 
+Question 13
+5 / 5 pts
+Which command allows you to display the manual page for the ls command?
+  ls --help
+  man ls
+Correct! The man ls command opens the manual page for the ls command, providing detailed information about its options and usage.
+  help ls
+  ls -man
+ 
+Question 14
+5 / 5 pts
+Which command can be used to search for files based on specific criteria in Linux?
+  find
+Correct! The find command is used to search for files in a directory hierarchy based on various criteria like name, size, modification time, etc.
+  grep
+  wc
+  echo
+ 
+Question 15
+5 / 5 pts
+What is the primary purpose of the grep command in Linux?
+  Count the number of words in a file
+  Search for patterns within files
+Correct! The grep command searches for specified patterns within files and displays the matching lines.
+  Locate files within directories
+  Display manual pages for commands
+ 
+Question 16
+5 / 5 pts
+How can you view the manual page for the grep command in the terminal?
+  grep --help
+  man grep
+Correct! The man command followed by the command name (e.g., man grep) displays the manual page for that command, providing detailed information on its usage and options
+  help grep
+  grep -man
+ 
+Question 17
+5 / 5 pts
+Which command is used to count the number of lines, words, and characters in a file?
+  grep
+  find
+  wc
+Correct! The wc (word count) command is used to count the number of lines, words, and characters in a file.
+  cat
+ 
+Question 18
+5 / 5 pts
+Which command is used to display the history of previously executed commands in the command line?
+  log
+  list
+  show
+  history
+Correct! The history command lists all previously executed commands in the command line.
+ 
+Question 19
+5 / 5 pts
+Which of the following commands can be used to find all files named "example.txt" in the current directory and its subdirectories?
+  find . -name example.txt
+Correct! The find command with the -name option searches for files with the specified name in the current directory (represented by .) and its subdirectories.
+  grep . -name example.txt
+  wc . -name example.txt
+  locate . -name example.txt
+ 
+Question 20
+5 / 5 pts
+How can you use the wc command to count the number of lines in a file named "data.txt"?
+  wc -w data.txt
+  wc -c data.txt
+  wc -l data.txt
+Correct! The wc -l command counts the number of lines in the specified file. wc -w counts words, wc -c counts bytes, and wc -L gives the length of the longest line.
+  wc -L data.txt

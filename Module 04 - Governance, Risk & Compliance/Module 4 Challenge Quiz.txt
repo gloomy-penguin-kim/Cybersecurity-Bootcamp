@@ -1,0 +1,81 @@
+Question 1
+12 / 12 pts
+What is the command used to set permissions on /etc/shadow to allow only root read and write access?
+  sudo cd 600 /etc/shadow
+  sudo chmod /etc/shadow
+  sudo chmod /etc/shadow 600
+  sudo chmod 600 /etc/shadow
+Correct
+
+
+Question 2
+10 / 10 pts
+What is the octal notation used to set permissions to allow only read/write for root and read for everyone else?
+  600
+  777
+  644
+Correct, 644 allows rw for root and r for everyone else.
+  505
+ 
+Question 3
+10 / 10 pts
+What is the command to add the user 'sam'?
+  sudo useradd = sam
+  sudo createusr sam
+  sudo useradd sam
+Correct, useradd adds a user.
+  sudo adduser > sam
+ 
+Question 4
+12 / 12 pts
+What is the command used to add the 'admin1' user to the sudoer's group?
+  sudo grpmod sudo > admin1
+  sudo groupmod sudo admin1
+  sudo usermod -G sudo admin1
+Correct, usermod -G will add a user to a group.
+  sudo usermod sudo = admin1
+ 
+Question 5
+10 / 10 pts
+What is the command used to create the 'engineers' group?
+  sudo addgroup > engineers
+  sudo groupadd = engineers
+  sudo addgroup engineers
+Correct, 'addgroup' will add a group.
+  sudo creategrp = engineers
+ 
+Question 6
+12 / 12 pts
+What is the command used to add the 'sam' user to a group without removing them from other groups?
+  sudo grpmod > engineers sam
+  sudo usermod -aG engineers sam
+Using -G in the command below instead of -aG will remove the user from all other groups besides the one specified.
+  sudo usermod engineers sam
+  sudo modgrp sam > engineers
+ 
+Question 7
+10 / 10 pts
+What command is used to create a shared folder for the 'engineers' group /home/engineers?
+  sudo mkdir engineers > home
+  sudo mkdir /home/engineers
+Correct. Creating a folder is the only thing needed. There's no special command for adding a folder for a group.
+  sudo mkdir /home = engineers
+  sudo mkhm /home/engineers
+ 
+Question 8
+12 / 12 pts
+What is the command to change the ownership of the engineer's folder /home/engineers to the engineers group?
+  sudo chown :engineers /home/engineers
+Correct. The command chown will add a user or group to be the owner of a folder or file.
+  sudo chown /home/engineers = engineers
+  sudo chown engineers > /home/engineers
+  sudo chowner /home/engineers > engineers
+ 
+Question 9
+12 / 12 pts
+What is the command to run a system audit in lynis?
+  sudo lynis system audit
+  sudo lynis -audit system
+  sudo lynis audit system
+Correct. This will have lynis audit the machine.
+  sudo lynis audit -system 

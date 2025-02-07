@@ -1,0 +1,43 @@
+16.1 Lesson 1: Introduction to Windows Penetration Testing
+Overview
+
+In today's class, we'll review the previous module, Linux penetration testing, and then introduce this module's topic: Windows penetration testing. We will cover Windows port scanning, initial access for Windows, and exploitation. We'll finish the day by running a Meterpreter shell on a Windows workstation.
+What You'll Learn
+
+By the end of today's class, you'll be able to:
+
+    Discern the differences between Windows and Linux penetration testing.
+
+    Explain which ports a Windows machine commonly has open.
+
+    Explain how Windows authentication works.
+
+    Perform poisoning or spoofing attacks on a Windows network.
+
+Today's Activities
+
+    Port scanning: You will continue to play the role of a pen tester conducting an engagement on MegaCorpOne. It's been a week since the last port scan, so you will reconduct scanning to determine whether any Windows machines are on the network. Activity File 
+
+Links to an external site.
+
+Password spraying: You will perform your first attack: password spraying. In the previous module, you cracked several passwords belonging to the users from the /etc/shadow file on the Linux machine. Now, you'll attempt to use those to log in to a Windows machine. Activity File
+
+Links to an external site.
+
+LLMNR spoofing: In this activity, you will perform LLMNR spoofing to retrieve a set of credentials for another domain user, which you will crack offline with John the Ripper. Activity File
+
+Links to an external site.
+
+Windows exploitation: You will leverage the credentials you obtained and use a Metasploit module to run commands on the remote machine. Activity File
+
+    Links to an external site.
+
+Student Guide
+
+The Student Guide can be found at 16.1 Student Guide
+
+Links to an external site.
+Slideshow
+
+The lesson slides are available on Google Drive here: 16.1 Slides
+Links to an external site.. 

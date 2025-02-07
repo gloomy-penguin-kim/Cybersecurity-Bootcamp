@@ -1,0 +1,163 @@
+Kim Jones 
+ gloomy.penguin.kim@gmail.com
+ ksj9942@proton.me
+ 636-893-2739
+ 
+Data Management Professional with a BS in Computer Science and six years of experience in Teradata, Oracle, and MS SQL Server. Expertise includes automation processes, ETL, server scripting in Python, Bash, and Perl, as well as REST APIs and Microservices. Currently attending a Cybersecurity Bootcamp at Washington University to transition into a more specialized career path by summer 2025. Eager to start a Junior position in DBA, Software Engineering, DevOps, Network Engineer, or Cybersecurity.
+
+
+-------------------------------------------------------------
+
+Skills
+
+Data management - Database architecture - Data analysis - Reporting services
+Team collaboration - Data profiling - Agile/SCRUM - Stored Procedures
+SQL, PS-SQL, T-SQL - Javascript - REST API - Documentation - Data integrity 
+On-call availability
+
+
+-------------------------------------------------------------
+
+Professional Experience:
+
+Career Break: 06/17 - present 
+- Dedicated time to personal development and overcoming significant challenges. During this period, I cultivated resilience, adaptability, and problem-solving skills that have strengthened my professional readiness. Currently enrolled in an intensive cybersecurity bootcamp to reenter the workforce with cutting-edge technical skills.
+
+
+Daugherty Business Solutions: 7/11/2014 – 11/04/2016
+Associate Consultant
+Saint Louis, Missouri
+
+- Clients: Re-Insurance Group of America (RGA), and Monsanto 
+- Participated in an intensive two-week training program for the Data Management Line of Service which focused on ETL and SQL at headquarters; collaborated with other team members whose natural talent inspired our work.
+- Agile team at Monsanto: Scala developer, Postgres developer, worked with developing an authentication service between Datapower, Teradata/MS SQL Server/Oracle, and AWS Cloud Server
+  - IT consultant on the SCRUM team paired with a Monsanto 3G Architecture team
+  - Created well-documented REST/SOAP/XLM consumable data for 3rd party business view Salesforce and other internal teams to expose sales and order data
+  - Solely responsible for a project in Spring Boot which provided my first project having DBA employees work for me instead of beside me
+  - I was responsible for work on a Mac laptop and a PC Windows laptop
+  - Wrote tons of shell scripting for archiving and cleaning up financial data from older servers
+  - Took on a special project to extract mathematical equations from 45+ different MS SQL Server stored procedures by parsing them to build a diagram of the severely tangled code so that an internal client could document and migrate the work
+  - Notable project: A software engineering intern initially struggled for three weeks with the workload at Daugherty, involving asynchronous RESTful data, Bootstrap, and EmberJS. A senior developer claimed to have produced a finished product in four hours. After tracking my progress on GitHub, I also completed the project within four hours. This led to an offer to transition from Data Management to Software Engineering with a $10,000 raise, as several teams, including Monsanto's own, wanted to budget my time that summer and fall.
+ - At RGA, I was part of the Data Management team that operated within a Linux environment, utilizing Tidal Job Scheduling and Informatica as part of our operational processes.
+
+
+Emerson – Contract Position through Envision: 06/2012 – 11/2013
+Metrics and Automation Specialist / Data Analyst 
+Saint Louis, Missouri
+
+- Contract position involved working with large, raw data imports from Oracle into Microsoft SQL Server 2005 (some tables contain over a million rows).  
+- Part of a team that developed a new database that allows network traffic information to be stored enabling historical and ad hoc reporting to become possible; used both relational and flat table schema to facilitate aggregation and joining of such large datasets.  
+- Responsible for creating stored procedures that import the data into the new desired format, updating historical tracking tables, and producing various reports for analysis.  
+- Evaluating, assessing, and identifying data patterns, correlations, and cause-effect relationships with network latency 
+- Learned data profiling techniques 
+- Researching and incorporating query optimization techniques, analysis, and error handling within stored procedures
+- Scheduling and coordination of large import jobs 
+Applying complex statistics, meeting specifications, and coding around business rules/requirements/requests 
+
+
+Mercy Hospital: 05/2012 – 06/2012 
+MS Access Database Developer 
+Saint Louis, Missouri
+
+- This contract position through TEK Systems focused on developing a ticket issuing and tracking system in Microsoft Access 2010.  The contract was originally set to be a minimum of three months, however, I was hired to complete the foundation of the project despite only being available for four weeks 
+- Interacted with non-technical management and employees to follow the application life cycle and establish specifications, features, capabilities, and prospective reporting needs with the inclusion of deadlines, demonstrations
+- Designed the database schema and layout with strong consideration of the current storage method (an Excel spreadsheet), business rules/procedures, and the growing need for data analysis and tracking 
+- Created a full front end in Access for the entire project scope and included the ability for mass imports of historical data from Excel and exporting in both aggregated and data-dump forms
+- Allowed for the easy inheritance and maintenance of the project by a future developer through documentation, using object-oriented and modular coding design, incorporated logical reuse of classes/functions and structured code
+- Employed extensive VBA while customizing the front-end forms and included unique features for a dashboard
+
+
+Nimbus EMR: 11/2010 – 08/2011
+Jr. .NET Developer/Reporting Analyst
+Saint Louis, Missouri
+
+- An electronic medical records software company specializing in nursing homes employed me as a junior-level developer; they utilized Silverlight 4, which is based in C# and employs XAML or XML for applications complemented by the incorporation of JavaScript and ASP.NET within the Visual Studio environment 
+- Developed detailed, flexible, and complex reports using Microsoft SQL Server Reporting Services 2008, adeptly addressing challenging specifications and accommodating various dynamic data sources. 
+- Utilization of Microsoft SQL Server Management Studio allowed for the creation and modification of database structures, along with executing queries, functions, and stored procedures. 
+- Enhanced the existing software architecture, improving menu navigation and overall aesthetics. 
+- Facilitated communication between ASP.NET and WCF RIA Services. 
+- Team member of four senior-level developers and another junior-level developer, which emphasized source control and adherence to the software development lifecycle. 
+- Monitored and upheld business rules when assessing how the software inserted, updated, and referenced data, ensuring the establishment of appropriate entity and table relationships within the software and database. 
+- Created, customized, and tested validation rules for data insertion and retrieval throughout the front end. 
+- Formulated new system constraints based on medical billing/coding principles and business rules to fulfill requests and enhance functionality for beta testing and other developers.
+- Contributed to software bug detection, management, and resolution. 
+- Programmed the reporting section in Silverlight to facilitate report listings based on user status, type, and privileges. 
+- Consistently met specifications and deadlines in collaboration with fellow developers, supervisors, and other staff members while effectively negotiating requirements and reporting capabilities.
+
+
+Anheuser-Busch: 04/07 – 10/08
+Student Programmer 
+Saint Louis, Missouri
+
+- Hired as a paid student intern for the Logistics department for an initial length of 9 months and extended to a total duration of 18 months
+- Utilized SAS for data gathering, manipulation, and summarization for reporting requests focused on sales, shipment, inventory, and production data used for presentation to/by upper department management.
+- Fulfilled requests for ad hoc reports from department members and other internal clients located inside and outside of the United States 
+-Developed automated Visual Basic .NET applications used to create, format, and distribute Excel workbooks using the output from an SAS program; developed entirely from scratch.
+- Responsible for the creation of small department applications in VB .NET connected to a live network database that enabled basic custom reports for information like wholesaler look-up, product codes, and inventory data to reduce the need for similar ad hoc reports
+- Maintained mainframe programs in JCL, FORTRAN, and COBOL; converted some to SAS; learned the benefits and disadvantages of relational databases and flat file systems.
+- Performed updates and new features for the intranet website in ASP .NET.
+- Created and modified MS Excel and MS Word macros customized for evolving business, user, and functionality requirements
+- Trained on crystal reports for approximately three months offsite
+Used Teradata, Oracle, and MS Access for query development and database relationship modeling. 
+- Evaluated and communicated request priority based upon complexity, hierarchy of the requesting person, and time needed to complete;  developed strong skills in productive, resourceful time management. 
+- Converted VB6 programs to VB .NET. 
+- Performed device-saving techniques, troubleshooting for conference room peripherals, and an unruly dot matrix printer.  
+
+
+Webster University: 04/06 – 04/07
+Help Desk Associate 
+Saint Louis, Missouri
+
+ - Assisted students, faculty, and staff over the phone with any computing needs that were possibly relevant to the University. 
+ - Created documentation and workflows for other members of the Help Desk team.
+ - Modified the MS Access database call log per request by management 
+ - This was one of my favorite jobs ever.  
+
+
+-------------------------------------------------------------
+
+Coursera Courses (check LinkedIn for verified links to descriptions): 
+
+JavaScript Programming with React, Node & MongoDB Specialization (62 hours total) 
+  Developing Back-End Apps with Node.js and Express (13 hours) 
+  Developing Front-End Apps with React (14 hours) 
+  JavaScript Programming Essentials (16 hours) 
+  Node.js & MongoDB: Developing Back-end Database Applications (19 hours) 
+
+Getting Started with Git and Github (10 hours) 
+Hands-on Introduction to Linux Commands and Shell Scripting (14 hours) 
+
+Intermediate Object-Oriented Programming with Java (1 hours) 
+Object-oriented programming with Java (10 hours) 
+
+Django Application Development with SQL and Databases (14 hours) 
+Developing AI Applications with Python and Flask (11 hours) 
+
+Python for Data Science, AI & Development (25 hours)
+
+
+-------------------------------------------------------------
+
+Projects: 
+
+Simple CRUD Application using Node.JS, Express, MongoDB, React, Docker 
+  - Dec 2024 to Present 
+  - This personal project is to demonstrate that I do have the skills to be a Junior Full-Stack Web Developer 
+  - Code: https://github.com/gloomy-penguin-kim/project_crud_backend
+  - Hosted: https://gloomypenguin-project-crud-f31b880aa357.herokuapp.com/
+    - if this site does not load right away, please wait 20 seconds and reload so that the server is woken from hibernation mode
+
+
+-------------------------------------------------------------
+
+Social Media:
+
+StackOverflow: https://stackoverflow.com/users/623952/gloomy-penguin 
+LinkedIn: https://www.linkedin.com/in/gloomy-penguin-kim/
+Github: https://github.com/gloomy-penguin-kim/
+Hackerrank: https://www.hackerrank.com/profile/gloomy_penguin_1
+
+
+-------------------------------------------------------------
+
+References from Emerson Electric are available by request. 
