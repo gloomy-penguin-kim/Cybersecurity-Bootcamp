@@ -1,0 +1,123 @@
+Module 11 Challenge
+Due Mar 20 at 10:59pm Points 100 Questions 6 Time Limit None Allowed Attempts 5
+Instructions
+Ransomware Riddles
+note
+The main part of this Challenge assignment reinforces the cryptography topics covered in class this week. The assignment also includes a Career Services reminder at the end—complete your milestones to become employer-ready and employer-competitive.
+
+In this assignment, you will play the role of a cybersecurity analyst at Nakatomi Hospital.
+
+Unfortunately, one of the hospital's doctors opened an email containing ransomware.
+
+This ransomware spread throughout the hospital and encrypted all patient records.
+
+The ransomware has given you two options to decrypt and retrieve the patient records: either pay 100 Bitcoin or solve six riddles.
+
+Since you refuse to pay a ransom, you'll have to solve six cryptographic riddles. Act fast: the doctors need to access the patient records as lives are at stake!
+
+Topics Covered in This Assignment
+Encryption
+Decryption
+Caesar cipher
+Encoding and decoding
+Binary
+Symmetric and asymmetric encryption
+Open SSL
+Key/IV
+Public/private keys
+Key Distribution
+Hashing
+Hashing algorithms
+Hashcat
+Steganography
+Steghide
+Files Required
+The entire assignment can be completed on the publicly available website linked below. If for any reason the website is unavailable or you encounter other issues, you can also access the offline copy of the site linked below.
+
+Website: https://sites.google.com/view/cryptobreakout/Links to an external site.
+
+Offline Copy: Crypto_ChallengeLinks to an external site.
+
+Instructions
+To solve the riddles, apply the cryptographic concepts that we've covered in the past three lessons.
+
+Once you've solved a riddle, submit your answer on the bottom of the Riddle page.
+
+If you have solved the riddle correctly, you will receive a key. Keep notes of all the riddle answers and keys. You will use those keys to answer the questions in this quiz.
+
+Once you have collected all six keys, select the Ransomware Decrypted header on the website and enter all your keys.
+
+If all six keys are correct, the ransomware will be removed and the data will be decrypted.
+
+Good luck, and act fast—the Nakatomi patients are counting on you!
+
+IMPORTANT: Please review your answers carefully before submitting, to ensure that they are free of spelling and spacing errors. Incorrect spelling or incorrect spacing syntax will be marked as incorrect answers.
+
+Career Services: Developing Your Resume and LinkedIn Profile
+You are nearly halfway through the boot camp; now is a great time to tackle another Career Services milestone.
+
+To stand out in the job market, you'll need to pair the tools and skills you've learned so far with polished and up-to-date materials that highlight your experience, skills, and connections. In this milestone, you will become more employer-competitive by strengthening your resume.
+
+To meet the submission criteria for the milestone:
+
+Polish your resume using the resources available in the Career Services section of Canvas (select "Career Services" in the left-hand panel menu).
+Submit Milestone: Develop Your Resume to the Career Services team for feedback.
+Still have earlier milestones you'd like to complete? You can complete them by visiting the same Career Services section of Canvas.
+
+Attempt History
+Attempt	Time	Score
+LATEST	Attempt 1	34 minutes	100 out of 100
+ Answers will be shown after your last attempt
+Score for this attempt: 100 out of 100
+Submitted Mar 17 at 1pm
+This attempt took 34 minutes.
+ 
+Question 1
+15 / 15 pts
+What is the first key (Riddle 1)?
+6skd8s
+Correct. The answer to the riddle was gruber
+ 
+Question 2
+20 / 20 pts
+What is the second key (Riddle 2)?
+cy8snd2
+Correct. The answer to the riddle was Gennero
+ 
+Question 3
+15 / 15 pts
+What is the third key (Riddle 3)?
+ud6s98n
+Correct. The answer to the riddle was takagi
+ 
+Question 4
+15 / 15 pts
+What is the fourth key (Riddle 4)?
+
+7gsn3nd2
+Correct.
+
+Jack would use Jill's public key to encrypt a message that he will send to Jill.
+
+Jill would decrypt this message with her private key.
+
+Six people total:
+
+Asymmetric = 6 * 2 = 12 Keys
+Symmetric = (6 * (6 -1))/2 = (6 * 5)/2 = 30/2 = 15 Keys
+Tim would only use someone else's public key to encrypt a message. The only other person's public key is Alice.
+
+ 
+Question 5
+20 / 20 pts
+What is the fifth key (Riddle 5)?
+
+ajy39d2
+Correct. The answer to the riddle was argyle
+ 
+Question 6
+15 / 15 pts
+What is the sixth key (Riddle 6)?
+
+7skahd6
+Correct. The answer to the riddle was mcclane

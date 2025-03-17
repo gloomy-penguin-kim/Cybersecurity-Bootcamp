@@ -1,0 +1,7 @@
+TCP: connection oriented 
+	- transmission control protocol (TCP) 
+	- handshakes, connection 
+	- ensures all entrusted data is being sent (complete, error free) 
+	- the TCP three way handshake 
+		- setup: SYN, SYN/ACK, ACK 
+		- termination: FIN, ACK, FIN, ACK 

@@ -1,0 +1,89 @@
+Question 1
+10 / 10 pts
+What does ADDS stand for?
+  Active Directory Data Services 
+  Active Directory Domain Services 
+ Correct: ADDS stands for Active Directory Domain Services.
+  Active Directory Deployment Services 
+  Active Directory Design Services 
+ 
+Question 2
+10 / 10 pts
+What is the SID prefix for the Administrators group
+  S-1-5-32-544 
+Correct: S-1-5-32-544 is the SID for the Administrators group.
+  S-1-5-20 
+  S-1-5-21 
+  S-1-5-19 
+ 
+Question 3
+10 / 10 pts
+What is the name of the main server that controls an AD domain?
+  Active Directory Server 
+  Domain Controller 
+Correct: The main server is called a Domain Controller.
+  Primary Domain Server 
+  Global Catalog 
+ 
+Question 4
+10 / 10 pts
+What infrastructure does ADCS issue and manage?
+  Databases 
+  User accounts 
+  Network shares 
+  Certificates 
+Correct: ADCS stands for Active Directory Certificate Services, which issues and manages certificates as part of the public key infrastructure.
+ 
+Question 5
+10 / 10 pts
+What Windows folder contains valuable files that are essential to the OS running?
+  C:\Users 
+  C:\Windows\System32 
+Correct: The System32 folder within the Windows directory contains essential OS files.
+  C:\Temp 
+  C:\Program Files 
+ 
+Question 6
+10 / 10 pts
+What extension do PowerShell scripts have?
+  .sh 
+  .exe 
+  .bat 
+  .ps1 
+Correct: PowerShell scripts have the .ps1 extension.
+ 
+Question 7
+10 / 10 pts
+What is Windows built-in anti-malware named?
+  McAfee 
+  Windows Defender 
+Correct: Windows Defender is the built-in anti-malware for Windows.
+  Malwarebytes 
+  Norton 
+ 
+Question 8
+10 / 10 pts
+What is the command to get detailed event logs from the event log in PowerShell?
+  Get-Logs 
+  Get-EventLog 
+  Get-EventViewer 
+  Get-WinEvent 
+Correct: Get-WinEvent is used to retrieve detailed event logs in PowerShell.
+ 
+Question 9
+10 / 10 pts
+What is the primary method of authentication in Windows?
+  NTLM 
+  LDAP 
+  Kerberos 
+ Correct: Kerberos is the primary authentication method in Windows.
+  RADIUS 
+ 
+Question 10
+10 / 10 pts
+What is the main protocol AD uses to communicate throughout the domain?
+  LDAP 
+ Correct: LDAP is the main protocol used by AD to communicate throughout the domain.
+  SMB 
+  FTP 
+  HTTP 

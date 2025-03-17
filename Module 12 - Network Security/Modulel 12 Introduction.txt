@@ -1,0 +1,72 @@
+Introduction to Module 12 
+This week serves as an introduction to network security from both a theoretical and practical standpoint. We'll explore the benefits of using defense-in-depth methodologies and how firewalls serve as the network's primary defense mechanism at both the perimeter and interior of the network.
+
+It's critical that network defenders not only stop attacks, but also learn from them. We will explore how to establish situational awareness of our networks by using detailed data analytics to learn about the tactics, techniques, and procedures (TTPs) that adversaries use to successfully infiltrate networks.
+
+Day 1 introduces firewalls. We'll examine the relationship between ports and services, including the role that open ports play as the principal attack surface of networked machines. Then, we'll cover how firewalls control access to a machine's open ports.
+
+Day 2 covers intrusion detection systems (IDS) and network security monitoring (NSM). We will analyze indicators of attack and compromise (IOAs and IOCs), perform network forensics, and acquire adversarial intelligence and situational awareness of our networks.
+
+Day 3 focuses on threat hunting using the Enterprise Security Management (ESM) framework of network security tools. We'll examine ESM concepts and the role of host-based endpoint telemetry, simulate investigations, and perform alert triage using Security Onion.
+
+What to Be Aware Of
+Days 2 and 3 will begin with a quick setup process so that our machines can generate alert data for the lab activities.
+Security+ Domains
+This module covers portions of the following domains on the Security+ exam:
+
+1.0 General Security Concepts
+
+3.0 Security Architecture
+
+5.0 Security Program Management and Oversight
+
+For more information about these Security+ domains, refer to the following resource:
+Security+ Exam ObjectivesLinks to an external site.
+
+This Week’s Lab Environment
+In this homework, you will use your web lab virtual machine (VM) for today's activities.:
+
+Use the following credentials to re-access the machine in case you are locked out:
+
+Username: sysadmin
+
+Password: cybersecurity
+
+UFW (Docker Container)
+
+Username: sysadmin
+Password: cybersecurity
+firewalld (Docker Container)
+
+Username: sysadmin
+Password: cybersecurity
+Preview This Week’s Challenge
+For this week's Challenge assignment, you will need to appropriately configure a firewall for a fictional organization.
+
+Looking Forward
+Next week, we will move into the Web Development module, followed by the Cloud Security module.
+
+Further Reading and Resources
+We recommend the following resources to supplement the concepts covered in this module:
+
+Day 1 Resources
+
+CSO: What is network security? Definition, methods, jobs & salariesLinks to an external site.
+
+Cisco: What is Network Security?Links to an external site.
+
+Cyberseek: Career Heat MapLinks to an external site.
+
+Day 2 Resources
+
+CSO: What is an intrusion detection system?Links to an external site.
+
+Security Onion: DocumentationLinks to an external site.
+
+Security Onion: Cheat SheetLinks to an external site.
+
+Day 3 Resources
+
+Kaspersky: What Is an Advanced Persistent Threat (APT)?Links to an external site.
+
+MITRE: ATT&CK Matrix for EnterpriseLinks to an external site.
