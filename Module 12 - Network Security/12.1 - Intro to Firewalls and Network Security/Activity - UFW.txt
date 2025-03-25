@@ -1,0 +1,23 @@
+sudo ufw reset
+sudo ufw status
+sudo ufw enable
+sudo ufw default deny incoming
+sudo ufw default deny outgoing
+sudo ufw status verbose
+
+Allowing internet traffic
+
+default are ingress rules, "to" is on our side , "from" is external
+
+sudo ufw allow 80
+sudo ufw allow 443
+sudo ufw deny 25
+sudo ufw deny ssh
+sudo ufw delete deny ssh
+
+sudo ufw allow from 172.16.18.70 to any port 22
+sudo ufw allow from 172.16.18.0/24 to any port 22
+sudo ufw deny from any port 39434 to any port 22
+sudo ufw deny out to any port 80
+
+sudo sed -i 's/^IPV6=.*/IPV6=no/' /etc/default/ufw

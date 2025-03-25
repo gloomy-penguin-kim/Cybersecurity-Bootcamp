@@ -1,6 +1,5 @@
 Kim Jones 
- gloomy.penguin.kim@gmail.com
- ksj9942@proton.me
+ gloomy.penguin.kim@gmail.com 
  636-893-2739
  
 Data Management Professional with a BS in Computer Science and six years of experience in Teradata, Oracle, and MS SQL Server. Expertise includes automation processes, ETL, server scripting in Python, Bash, and Perl, as well as REST APIs and Microservices. Currently attending a Cybersecurity Bootcamp at Washington University to transition into a more specialized career path by summer 2025. Eager to start a Junior position in DBA, Software Engineering, DevOps, Network Engineer, or Cybersecurity.
@@ -21,7 +20,7 @@ On-call availability
 Professional Experience:
 
 Career Break: 06/17 - present 
-- Dedicated time to personal development and overcoming significant challenges. During this period, I cultivated resilience, adaptability, and problem-solving skills that have strengthened my professional readiness. Currently enrolled in an intensive cybersecurity bootcamp to reenter the workforce with cutting-edge technical skills.
+- Dedicated time to personal development. During this period, I cultivated resilience, adaptability, and problem-solving skills that have strengthened my professional readiness. Currently enrolled in an intensive cybersecurity bootcamp to reenter the workforce with cutting-edge technical skills.
 
 
 Daugherty Business Solutions: 7/11/2014 – 11/04/2016
@@ -144,7 +143,7 @@ Simple CRUD Application using Node.JS, Express, MongoDB, React, Docker
   - Dec 2024 to Present 
   - This personal project is to demonstrate that I do have the skills to be a Junior Full-Stack Web Developer 
   - Code: https://github.com/gloomy-penguin-kim/project_crud_backend
-  - Hosted: https://gloomypenguin-project-crud-f31b880aa357.herokuapp.com/
+  - Hosted: https://project-crud.soylentkim.dev
     - if this site does not load right away, please wait 20 seconds and reload so that the server is woken from hibernation mode
 
 
@@ -160,4 +159,4 @@ Hackerrank: https://www.hackerrank.com/profile/gloomy_penguin_1
 
 -------------------------------------------------------------
 
-References from Emerson Electric are available by request. 
+References are available by request. 

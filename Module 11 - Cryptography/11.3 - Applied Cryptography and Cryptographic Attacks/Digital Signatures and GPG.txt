@@ -1,0 +1,25 @@
+Digital Signatures:
+
+To Sign and Encrypt
+
+gpg --output signed_document.sig --sign input_file
+
+To verify a signature and decrypt:
+
+gpg --output unencrypted_output --decrypt signed_document.sig
+
+CLEARSIGN DOCUMENTS CREATION
+
+gpg --output doc.sig  --clearsign doc
+
+CLEARSIGN DOCUMENTS VERIFICATION
+
+gpg --verify doc.sig
+
+DETACHED SIGNATURE CREATION
+
+gpg --output doc.sig --detach-sig doc
+
+DETACHED SIGNATURE VERIFICATION
+
+gpg --verify doc.sig doc

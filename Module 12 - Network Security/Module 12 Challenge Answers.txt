@@ -1,0 +1,611 @@
+Module 12 Challenge
+Due Mar 25 at 10:59pm Points 100 Questions 34 Time Limit None Allowed Attempts 5
+Instructions
+The challenge will include the following sections:
+
+Part 1: Snort Rules
+Snort Rule Analysis
+Questions 1–6 will focus on Snort. Use the two provided Snort rules to answer these questions:
+
+Snort Rule #1
+
+alert tcp $EXTERNAL_NET any -> $HOME_NET 5800:5820 (msg:"ET SCAN Potential VNC Scan 5800-5820"; flags:S,12; threshold: type both, track by_src, count 5, seconds 60; reference:url,doc.emergingthreats.net/2002910; classtype:attempted-recon; sid:2002910; rev:5; metadata:created_at 2010_07_30, updated_at 2010_07_30;)
+Snort Rule #2
+
+alert tcp $EXTERNAL_NET $HTTP_PORTS -> $HOME_NET any (msg:"ET POLICY PE EXE or DLL Windows file download HTTP"; flow:established,to_client; flowbits:isnotset,ET.http.binary; flowbits:isnotset,ET.INFO.WindowsUpdate; file_data; content:"MZ"; within:2; byte_jump:4,58,relative,little; content:"PE|00 00|"; distance:-64; within:4; flowbits:set,ET.http.binary; metadata: former_category POLICY; reference:url,doc.emergingthreats.net/bin/view/Main/2018959; classtype:policy-violation; sid:2018959; rev:4; metadata:created_at 2014_08_19, updated_at 2017_02_01;)
+Part 2: "Drop Zone" Lab
+In this lab exercise, you will assume the role of a junior security administrator at an indoor skydiving company called Drop Zone.
+
+Your company hosts a web server that accepts online reservations and credit card payments. As a result, the company must comply with PCI/DSS regulations that require businesses who accept online credit card payments to have a firewall in place to protect personally identifiable information (PII).
+
+Your network has been under attack from the following three IPs: 10.208.56.23, 135.95.103.76, and 76.34.169.118. You have decided to add these IPs to the drop zone within your firewall.
+
+The first requirement of PCI/DSS regulations is to protect your system with firewalls. "Properly configured firewalls protect your card data environment. Firewalls restrict incoming and outgoing network traffic through rules and criteria configured by your organization." —
+PCI DSS Quick Reference GuideLinks to an external site.
+
+Set Up
+For this lab, use your netsec virtual machine.
+
+Once logged in, launch the firewalld and ufw docker containers, and create an interactive session with the firewalld container with the following command:
+docker exec -it firewalld bash
+
+Be sure to run the following as soon as you connect to the firewalld container
+sudo sed -i 's/^IPV6=.*/IPV6=no/' /etc/default/ufw
+
+`
+
+Instructions
+The senior security manager has drafted configuration requirements for your organization with the following specification:
+
+You need to configure zones that will segment each network according to service type.
+
+public Zone
+Services: HTTP, HTTPS, POP3, SMTP
+Interface: ETH0
+web Zone
+Source IP: 201.45.34.126
+Services: HTTP
+Interface: ETH1
+sales Zone
+Source IP: 201.45.15.48
+Services: HTTPS
+Interface: ETH2
+mail Zone
+Source IP: 201.45.105.12
+Services: SMTP, POP3
+Interface: ETH3
+You also need to drop all traffic from the following blacklisted IPs:
+
+10.208.56.23
+135.95.103.76
+76.34.169.118
+Reference: https://manpages.debian.org/testing/firewalld/firewall-cmd.1.en.htmlLinks to an external site.
+
+Uninstall ufw
+Before getting started, verify that you do not have any instances of UFW running. This will avoid conflicts with your firewalld service. This also ensures that firewalld will be your default firewall.
+
+Run the command that removes any running instance of UFW.
+Enable and start firewalld.
+By default, the firewalld service should be running. If not, run the commands that enable and start firewalld upon boots and reboots.
+
+note
+This will ensure that firewalld remains active after each reboot.
+
+Confirm that the service is running.
+Run the command that checks whether the firewalld service is up and running.
+List all firewall rules currently configured.
+Next, lists all currently configured firewall rules. This will give you an idea of what's currently configured and ensuring you don’t duplicate work that’s already done.
+
+Run the command that lists all currently configured firewall rules.
+
+Take note of what zones and settings are configured. You many need to remove unneeded services and settings.
+
+List all supported service types that can be enabled.
+Run the command that lists all currently supported services to find out whether the service you need is available.
+
+Notice that the home and drop zones are created by default.
+
+Zone views.
+Run the command that lists all currently configured zones.
+
+Notice that the public and drop zones are created by default. Therefore, you will need to create zones for web, sales, and mail.
+
+Create zones for web, sales and mail.
+Run the commands that create web, sales, and mail zones.
+
+hint
+If needed, refer to the manpage in the Instructions section for assistance.
+
+Remember to reload the firewalld service to apply your new settings before moving on.
+
+Set the zones to their designated interfaces.
+Run the commands that set your eth interfaces to your zones.
+
+Use the configurations provided at the beginning of the instructions.
+Add services to the active zones.
+Run the commands that add services to the public zone, the web zone, the sales zone, and the mail zone.
+
+Use the configurations provided at the beginning of the instructions.
+Add your adversaries to the drop zone.
+Run the command that will add all current and any future blacklisted IPs to the drop zone.
+Make rules permanent, then reload them.
+It's good practice to ensure that your firewalld installation remains nailed up and retains its services across reboots. This helps ensure that the network remains secure after unplanned outages such as power failures.
+
+Run the command that reloads the firewalld configurations and writes it to memory.
+View active zones.
+Now, provide truncated listings of all currently active zones. This is a good time to verify your zone settings.
+
+Run the command that displays all zone services.
+Block an IP address.
+Use a rich-rule that blocks the IP address 138.138.0.3 on your public zone.
+Block Ping/ICMP Requests
+Harden your network against ping scans by blocking icmp ehco replies.
+
+Run the command that blocks pings and icmp requests in your public zone.
+Rule Check
+Now that you've set up your brand new firewalld installation, it's time to verify that all of the settings have taken effect.
+
+Run the command that lists all of the rule settings. Run one command at a time for each zone.
+
+Are all of the rules in place? If not, then go back and make the necessary modifications before checking again.
+
+Congratulations! By completing the previous commands, you have successfully configured and deployed a fully comprehensive firewalld installation.
+
+Part 3: IDS, IPS, DiD, and Firewalls
+Questions 22–34 will focus on IDS, IPS, Defense-in-Depth, and firewall architectures.
+
+Attempt History
+Attempt	Time	Score
+KEPT	Attempt 2	27 minutes	100 out of 100
+LATEST	Attempt 2	27 minutes	100 out of 100
+Attempt 1	39 minutes	94 out of 100
+ Answers will be shown after your last attempt
+Score for this attempt: 100 out of 100
+Submitted Mar 25 at 2:23pm
+This attempt took 27 minutes.
+ 
+Question 1
+3 / 3 pts
+Snort Rule #1 Analysis
+Use the provided Snort rule to answer the following question:
+
+Snort Rule:
+
+alert tcp $EXTERNAL_NET any -> $HOME_NET 5800:5820 (msg:"ET SCAN Potential VNC Scan 5800-5820"; flags:S,12; threshold: type both, track by_src, count 5, seconds 60; reference:url,doc.emergingthreats.net/2002910; classtype:attempted-recon; sid:2002910; rev:5; metadata:created_at 2010_07_30, updated_at 2010_07_30;)
+What does this rule do?
+
+  Weaponization 
+  Exploitation 
+  Delivery 
+  Generates an alert, for tcp traffic inbound from anywhere outside the LAN on any port, to port 5800 through 5820 on the LAN. 
+Correct! This alert is triggered when TCP traffic using ports 5800–5820 comes from an external network to the internal LAN.
+ 
+Question 2
+3 / 3 pts
+Snort Rule #1 Analysis
+Use the provided Snort rule to answer the following question:
+
+Snort Rule:
+
+alert tcp $EXTERNAL_NET any -> $HOME_NET 5800:5820 (msg:"ET SCAN Potential VNC Scan 5800-5820"; flags:S,12; threshold: type both, track by_src, count 5, seconds 60; reference:url,doc.emergingthreats.net/2002910; classtype:attempted-recon; sid:2002910; rev:5; metadata:created_at 2010_07_30, updated_at 2010_07_30;)
+What stage of the Cyber Kill Chain does the alerted activity violate?
+
+  Delivery 
+  Exploitation 
+  Reconnaissance 
+Correct! This alert indicates a reconnaissance. Someone is conducting information-gathering against the targeted victim. 
+  Weaponization 
+ 
+Question 3
+3 / 3 pts
+Snort Rule #1 Analysis
+Use the provided Snort rule to answer the following question:
+
+Snort Rule:
+
+alert tcp $EXTERNAL_NET any -> $HOME_NET 5800:5820 (msg:"ET SCAN Potential VNC Scan 5800-5820"; flags:S,12; threshold: type both, track by_src, count 5, seconds 60; reference:url,doc.emergingthreats.net/2002910; classtype:attempted-recon; sid:2002910; rev:5; metadata:created_at 2010_07_30, updated_at 2010_07_30;)
+What kind of attack is indicated?
+
+  Emerging Threat Network SCAN for Potential VNC Scan of port 5800-5820 
+Correct! This rule would be triggered when an Emerging Threat Network SCAN is being used to search for a potential VNC Scan using the port range 5800–5820.
+  5800:5820 Trojan attack against an outside source. 
+  This is not an indication of an attack. The traffic shows typically web browsing behavior. 
+  Potential network-based phishing attempt 
+ 
+Question 4
+3 / 3 pts
+Snort Rule #2 Analysis
+Use the provided Snort rule to answer the following question:
+
+alert tcp $EXTERNAL_NET $HTTP_PORTS -> $HOME_NET any (msg:"ET POLICY PE EXE or DLL Windows file download HTTP"; flow:established,to_client; flowbits:isnotset,ET.http.binary; flowbits:isnotset,ET.INFO.WindowsUpdate; file_data; content:"MZ"; within:2; byte_jump:4,58,relative,little; content:"PE|00 00|"; distance:-64; within:4; flowbits:set,ET.http.binary; metadata: former_category POLICY; reference:url,doc.emergingthreats.net/bin/view/Main/2018959; classtype:policy-violation; sid:2018959; rev:4; metadata:created_at 2014_08_19, updated_at 2017_02_01;)
+What does this rule do?
+
+  Generate an alert, for tcp traffic inbound from anywhere outside the LAN on port 80, to any port on the LAN. 
+Correct! This rule generates an alert for when TCP traffic is inbound from anywhere outside the LAN on port 80 to any port on the LAN.
+  Generate an alert, for tcp traffic that indicates an email has been sent to an outside location. 
+  Generates an alert when a user browses the Internet on sites that use HTTP. 
+  This rule sends an alert when a user performs an unauthorized Windows Update 
+ 
+Question 5
+3 / 3 pts
+Snort Rule #2 Analysis
+Use the provided Snort rule to answer the following question:
+
+alert tcp $EXTERNAL_NET $HTTP_PORTS -> $HOME_NET any (msg:"ET POLICY PE EXE or DLL Windows file download HTTP"; flow:established,to_client; flowbits:isnotset,ET.http.binary; flowbits:isnotset,ET.INFO.WindowsUpdate; file_data; content:"MZ"; within:2; byte_jump:4,58,relative,little; content:"PE|00 00|"; distance:-64; within:4; flowbits:set,ET.http.binary; metadata: former_category POLICY; reference:url,doc.emergingthreats.net/bin/view/Main/2018959; classtype:policy-violation; sid:2018959; rev:4; metadata:created_at 2014_08_19, updated_at 2017_02_01;)
+What layer of the Cyber Kill Chain does the alerted activity violate?
+
+ 
+
+  Exploitation 
+  Delivery 
+Correct! This alert indicates that someone is attempting to deliver a weaponized payload.
+  Installation 
+  Reconnaissance 
+ 
+Question 6
+2 / 2 pts
+Snort Rule #2 Analysis
+Use the provided Snort rule to answer the following question:
+
+alert tcp $EXTERNAL_NET $HTTP_PORTS -> $HOME_NET any (msg:"ET POLICY PE EXE or DLL Windows file download HTTP"; flow:established,to_client; flowbits:isnotset,ET.http.binary; flowbits:isnotset,ET.INFO.WindowsUpdate; file_data; content:"MZ"; within:2; byte_jump:4,58,relative,little; content:"PE|00 00|"; distance:-64; within:4; flowbits:set,ET.http.binary; metadata: former_category POLICY; reference:url,doc.emergingthreats.net/bin/view/Main/2018959; classtype:policy-violation; sid:2018959; rev:4; metadata:created_at 2014_08_19, updated_at 2017_02_01;)
+What kind of attack is indicated?
+
+  This rule indicates that a malicious user is trying to send files to an external website. 
+  Emerging Threat for Policy Violation "EXE or DLL Windows file download" 
+Correct! We can see from the message (msg:"ET POLICY PE EXE or DLL Windows file download HTTP")in the rule that this is an Emerging Threat.
+  This rule does not indicate an attack. It is used to monitor typical web browsing behavior. 
+  This rule is triggered when a user receives a phishing email attempting to acquire sensitive data. 
+ 
+Question 7
+2 / 2 pts
+"Drop Zone" Lab
+Uninstall ufw
+If you are going to use firewalld as your firewall, it's generally best practice to ensure that you do not have any instances of ufw running to avoid conflicts with your firewalld service. Additionally, this ensures that firewalld will be your default firewall.
+What is the command that removes any running instance of ufw?
+
+  sudo delete ufw service 
+  sudo apt stop ufw 
+  sudo apt remove ufw 
+Correct! The command sudo apt remove ufw is used to remove the ufw firewall application.   
+  sudo uninstall ufw -all 
+ 
+Question 8
+3 / 3 pts
+"Drop Zone" Lab
+Enable and start firewalld
+What commands would enable and start firewalld upon boots and reboots?
+
+Note: This will ensure that `firewalld` remains active after each reboot.
+
+ 
+
+  
+sudo systemctl enable firewalld 
+sudo systemctl start firewalld
+
+Correct! These two commands will both enable and start up the firewalld application.
+  
+sudo service onreboot firewalld 
+sudo service start firewalld
+
+  
+sudo systemctl enable reboot firewalld 
+sudo systemctl enable start firewalld
+
+  
+sudo systemctl enable reboot firewalld 
+sudo systemctl start now firewalld
+
+ 
+Question 9
+3 / 3 pts
+"Drop Zone" Lab
+Confirm that the service is running.
+After starting up a new service, it is good practice to confirm that the service is running.
+
+What is the command that checks whether or not the firewalld service is up and running?
+
+  sudo newservice --state 
+  sudo ufw-cmd --state 
+  sudo firewall-cmd --state 
+Correct! The command, sudo firewall-cmd --state can be used to check the status of the firewalld service.
+  sudo firewalld -currentstate 
+ 
+Question 10
+3 / 3 pts
+"Drop Zone" Lab
+List all firewall rules currently configured.
+When setting up firewall rules, it is a good idea to view the currently configured rules to avoid conflicts and duplication of work.
+
+What is the command to list all of the currently configured firewall rules?
+
+  sudo firewall-list 
+  sudo firewall-cmd --list-all 
+Correct! This command will list all of the current firewall rules.
+  sudo firewall--list-all 
+  sudo list-all --firewall 
+ 
+Question 11
+3 / 3 pts
+"Drop Zone" Lab
+List all supported service types that can be enabled.
+Firewalls can allow traffic for certain services, but they need to be allowed.
+What is the command that lists all currently supported services to see if the service you need is available?
+ 
+
+  sudo firewall-cmd --get-services 
+Correct! This command will get all of the supported firewall services.
+  sudo firewall-reload-services 
+  sudo firewall-service 
+  sudo show-services --firewall 
+ 
+Question 12
+3 / 3 pts
+"Drop Zone" Lab
+Zone views
+Firewalls commonly separate networks into zones. It is essential to understand what zones are available to properly secure traffic.
+
+What is the command to list all of the currently configured zones?
+
+  sudo firewall-list-zones 
+  sudo firewall-list-all-zones 
+  sudo list-all-zones 
+  sudo firewall-cmd --list-all-zones 
+Correct! This command will list all of the firewall zones.
+ 
+Question 13
+3 / 3 pts
+"Drop Zone" Lab
+Create a zone.
+What would be the command to create a new zone called web?
+
+  sudo firewall-cmd --permanent --new-zone=web 
+Correct! This command line will create a permanent, new zone called web.
+  sudo firewall-add-zone=web 
+  sudo new-zone=web 
+  sudo firewall-new-zone=web 
+ 
+Question 14
+3 / 3 pts
+"Drop Zone" Lab
+Designate an interface to the new zone.
+What is the command to set the interface eth1 to the new zone, web?
+
+ 
+
+  sudo firewall-cmd -zone=web --change-interface=ethernet1 
+  sudo firewall-zone=web --change-interface=eth 
+  sudo firewall-zone=web -interface=eth1 
+  sudo firewall-cmd --zone=web --change-interface=eth1 
+Correct! This command will add interface eth1 to the new zone called web.
+ 
+Question 15
+3 / 3 pts
+"Drop Zone" Lab
+Add services to an active zone.
+What would be the command to add the service http to the web zone?
+
+  sudo firewall-zone=web -service=http 
+  sudo firewall--zone=web --makeservice=http 
+  sudo firewall-zone=web --create-service=http 
+  sudo firewall-cmd --zone=web --add-service=http 
+Correct! The command will add the service http to the new zone called web.
+ 
+Question 16
+3 / 3 pts
+"Drop Zone" Lab
+Add services to the active zones.
+What would be the command to add the service smtp to the public zone?
+
+  sudo firewall-cmd --zone=web --add-service=smtp 
+  sudo firewall-cmd -zone=smtp --add-service=public 
+  sudo firewall-cmd --zone=public --add-service=web 
+  sudo firewall-cmd --zone=public --add-service=smtp 
+Correct! This command will add the service smtp to the new zone called public.
+ 
+Question 17
+3 / 3 pts
+"Drop Zone" Lab
+Add your adversaries to the drop zone.
+
+What command would we use to add the malicious IP address, 10.208.56.23, to the drop zone?
+
+  sudo firewall-permanent --zone=drop --add-source=10.208.56.23 
+  sudo firewall-cmd --zone=drop --add=10.208.56.23 
+  sudo firewall-zone=drop --add-source=10.208.56.23 
+  sudo firewall-cmd --permanent --zone=drop --add-source=10.208.56.23 
+Correct!
+ 
+Question 18
+3 / 3 pts
+"Drop Zone" Lab
+Make rules permanent, then reload them.
+What is the command that reloads the firewalld configurations and writes them to memory?
+
+  sudo firewall-cmd --reloadwrite 
+  sudo firewall-cmd --reload 
+Correct! This command will save and reload configuration changes to firewalld.
+  sudo firewall-reload --write 
+  sudo firewall-cmd --rewrite 
+ 
+Question 19
+3 / 3 pts
+"Drop Zone" Lab
+View active zones.
+What command shows all of the zone services?
+
+The output should resemble this:
+
+mail
+    interfaces: eth3
+    sources: 201.45.105.12
+web
+    interfaces: eth1
+    sources: 201.45.34.126
+drop
+    sources: 10.208.56.23 135.95.103.76 76.34.169.118
+sales
+    interfaces: eth2
+    sources: 201.45.15.48
+public
+    interfaces: ens33 eth0
+
+  sudo firewall-cmd --get-active-zones 
+Correct! The command will get and display all of the zone services.
+  sudo firewall-active-zones 
+  sudo firewall-cmd --zones 
+  sudo firewall-get-zones 
+ 
+Question 20
+3 / 3 pts
+"Drop Zone" Lab
+Block an IP address.
+
+How do you create a rich rule that blocks the IP address 138.138.0.3?
+
+  $ sudo firewall-cmd --zone=public --add-rich-rule='rule family="ipv4" address="138.138.0.3" 
+  $ sudo firewall-cmd --zone=public --add-rich-rule='rule family="ipv4" source address="138.138.0.3" reject' 
+Correct! This command will create a rule that will reject all traffic from 138.138.0.3.
+  $ sudo firewall-cmd --zone=public --add-rich-rule='rule family="ipv4" address="138.138.0.3" block' 
+  $ sudo firewall-cmd --zone=any --rich-rule='rule family="ipv4" ip address="138.138.0.3" reject' 
+ 
+Question 21
+3 / 3 pts
+"Drop Zone" Lab
+Block Ping/ICMP requests.
+
+What is a command to create a rule that can block ping and icmp requests in the public zone?
+
+  sudo firewall-cmd --zone=public --add-icmp-block=echo-reply --add-icmp-block=echo-request 
+Correct! This command will create a rule that will block icmp traffic from the public zone.
+  sudo firewall-cmd --zone=public --add-block=echo-reply --block-icmp 
+  sudo firewall-zone=public --block-icmp=echo-reply --add-icmp-block=echo 
+  sudo firewall-zone=public --add-icmp-block=echo-reply --add-block=echo 
+ 
+Question 22
+3 / 3 pts
+IDS
+
+Select two ways an IDS connects to a network.
+
+  Network TAP (Test Access Port) 
+Correct! A network TAP (Test Access Port) is one way to add an IDS to a network. The network TAP is a device that will sit between devices on a network and monitor all traffic going between the devices.
+  (SPAN/Mirrored Port) SPAN Port (Switched Port Analyzer) also known as Port Mirroring 
+Correct! A SPAN Port is one way to add an IDS to a network. The SPAN Port sends a mirror image of all traffic to a port connected to the IDS for inspection.
+  WiFi 
+  Switchport 
+ 
+Question 23
+3 / 3 pts
+IDS
+
+What type of IDS compares patterns of traffic to predefined signatures and is unable to detect zero-day attacks?
+
+  AI-integrated 
+  Signature-based 
+Correct! A signature-based IDS reviews traffic based off of predefined signatures.
+  Machine learning 
+  Anomaly-based 
+ 
+Question 24
+3 / 3 pts
+IDS
+Which type of IDS is beneficial for detecting all suspicious traffic that deviates from the well-known baseline and is excellent at detecting when an attacker probes or sweeps a network?
+  Static-based 
+  Anomaly-based 
+Correct! An anomaly-based IDS identifies suspicious traffic when it deviates from a baseline of normal traffic.
+  Port forwarding 
+  Signature-based 
+ 
+Question 25
+3 / 3 pts
+Defense in depth
+For the following scenario, provide the layer of defense in depth that applies:
+A criminal hacker tailgates an employee through an exterior door into a secured facility, explaining that they forgot their badge at home.
+
+  Data 
+  Application 
+  Physical 
+Correct!
+  Host 
+ 
+Question 26
+3 / 3 pts
+Defense in depth
+For the following scenario, provide the layer of defense in depth that applies:
+A zero-day goes undetected by antivirus software.
+
+  Physical 
+  Application 
+  Network 
+  Host 
+ 
+Question 27
+3 / 3 pts
+Defense in depth
+For the following scenario, provide the layer of defense in depth that applies:
+A criminal successfully gains access to HR’s database.
+
+  Physical 
+  Network 
+  Data 
+  Application 
+ 
+Question 28
+3 / 3 pts
+Defense in depth
+For the following scenario, provide the layer of defense in depth that applies:
+A criminal hacker exploits a vulnerability within an operating system.
+
+  Physical 
+  Application 
+  Network 
+  Host 
+ 
+Question 29
+3 / 3 pts
+Defense in depth
+For the following scenario, provide the layer of defense in depth that applies:
+A hacktivist organization successfully performs a DDoS attack, taking down a government website.
+
+  Network 
+  Host 
+  Application 
+  Physical 
+ 
+Question 30
+3 / 3 pts
+Defense in depth
+For the following scenario, provide the layer of defense in depth that applies:
+Data is classified at the wrong classification level.
+
+  Host 
+  Application 
+  Policy, Procedures, and Awareness 
+  Network 
+ 
+Question 31
+3 / 3 pts
+Defense in Depth
+For the following scenario, provide the layer of defense in depth that applies:
+A state-sponsored hacker group successfully firewalked an organization to produce a list of active services on an email server.
+
+  Network 
+  Policy, Procedures, and Awareness 
+  Host 
+  Perimeter 
+ 
+Question 32
+3 / 3 pts
+Defense in depth
+For the following scenario, provide the layer of defense in depth that applies:
+What type of IDS can use machine learning to detect zero-day events?
+
+  Static firewall 
+  Port Forwarder 
+  Anomaly-based 
+Correct! An anomaly-based IDS might use machine learning to identify malicious traffic by comparing it to previously viewed traffic.
+  Signature Based 
+ 
+Question 33
+3 / 3 pts
+Firewall architectures and methodologies
+Which type of firewall considers the connection as a whole? Instead of looking at only individual packets, these firewalls look at whole streams of packets at one time.
+
+  Proxy firewalls 
+  Stateful packet filtering firewall 
+Correct!
+  MAC-layer firewall 
+  Packet-filtering (stateless) firewall 
+ 
+Question 34
+3 / 3 pts
+Firewall architectures and methodologies
+Which type of firewall examines data within a packet as it progresses through a network interface by examining source and destination IP address, port number, and packet type—all without opening the packet to inspect its contents?
+
+  MAC-layer firewall 
+  Packet-filtering (stateless) firewall 
+Correct!
+  Application or proxy firewalls 
+  Stateful packet filtering firewall 
+Quiz Score: 100 out of 100

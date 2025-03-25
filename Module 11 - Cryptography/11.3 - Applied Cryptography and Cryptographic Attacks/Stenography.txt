@@ -1,0 +1,4 @@
+eog family.jpg
+echo "this is my hidden steganography message" > hidden_message.txt
+steghide embed -cf family.jpg -ef hidden_message.txt
+steghide extract -sf family.jpg
