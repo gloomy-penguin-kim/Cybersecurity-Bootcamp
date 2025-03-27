@@ -1,0 +1,60 @@
+Introduction to Module 13
+Web Development
+In this module, you will learn about web application architecture and the web client–server model HTTP communication process.
+
+On Day 1, we will cover the HTTP communication process and explore how web applications manage sessions by using cookies.
+
+On Day 2, we will cover modern web application architecture, web application software "stacks", how to deploy web application container sets and create SQL queries to manage data in databases, and create front-ends using AI.
+
+What to Be Aware Of
+This week's Challenge assignment includes an optional bonus activity that requires you to have completed the curl and swapping sessions activities from Day 1 of this module.
+
+Security+ Domains
+This module covers portions of the following domains on the Security+ exam:
+
+This module covers portions of the following domains on the Security+ exam:
+
+1.0 General Security Concepts
+
+3.0 Security Architecture
+
+For more information about these Security+ domains, refer to the following resource:
+Security+ Exam ObjectivesLinks to an external site.
+
+This Week's Lab Environment
+You will continue to use your Web Lab virtual machine for this module's activities.
+
+Log in with the following credentials:
+
+Username: sysadmin
+Password: cybersecurity
+Preview This Week's Challenge
+In this week's Challenge, you'll demonstrate your understanding of the web client–server model HTTP communication process.
+
+Looking Forward
+In the next module, Web Vulnerabilities, you will use this foundational knowledge of web application architecture and databases to examine how web attacks like SQL injections can lead to information breaches.
+
+Further Reading and Resources
+We recommend the following resources to supplement the concepts covered in this module:
+
+Day 1 Resources
+
+Tutorials Point: HTTP requestsLinks to an external site.
+Tutorials Point: HTTP responsesLinks to an external site.
+Tutorials Point: HTTP header fieldsLinks to an external site.
+Everything curl: Command-line optionsLinks to an external site.
+OWASP Secure Headers Project: Secure HTTP headersLinks to an external site.
+Mozilla's MDN: HTTP Strict-Transport-Security response headerLinks to an external site.
+Day 2 Resources
+
+Docker Docs: Getting startedLinks to an external site.
+Docker Docs: Overview of Docker ComposeLinks to an external site.
+Tedium: The LAMP stackLinks to an external site.
+Docker Hub: httpdLinks to an external site.
+Synopsys: Overview of ethical hackingLinks to an external site.
+Rapid7: Overview of penetration testingLinks to an external site.
+Challenge Resources
+
+curl Docs: Overview of HTTP cookiesLinks to an external site.
+WordPress: User rolesLinks to an external site.
+WordPress: Admin dashboardLinks to an external site.

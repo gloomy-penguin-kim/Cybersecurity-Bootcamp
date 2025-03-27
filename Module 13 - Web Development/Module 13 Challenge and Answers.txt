@@ -1,0 +1,258 @@
+Module 13 Challenge
+Due Apr 1 at 10:59pm Points 100 Questions 21 Time Limit None Allowed Attempts 5
+Instructions
+Web Development
+In this Challenge, you'll review many of the concepts and tools that we've covered in the Web Development module. If needed, feel free to use the following reference sheets:
+
+HTTP Reference SheetLinks to an external site.
+curl Reference SheetLinks to an external site.
+You will answer questions in this quiz based on web development concepts. There are over 20 questions in this quiz, you may want to take notes to keep track of your answers. 
+
+IMPORTANT: Please review your answers carefully before submitting to ensure that they are free of spelling and spacing errors. Incorrect spelling or spacing syntax will be marked as incorrect answers.
+
+Attempt History
+Attempt	Time	Score
+LATEST	Attempt 1	6 minutes	100 out of 100
+ Answers will be shown after your last attempt
+Score for this attempt: 100 out of 100
+Submitted Mar 25 at 6:07pm
+This attempt took 6 minutes.
+ 
+Question 1
+5 / 5 pts
+In what type of architecture does the HTTP request and response process occur?
+  HTTP operates in a monolithic architecture. 
+  HTTP uses client–server architecture. 
+Correct. The client–server architecture accurately describes the relationship and interaction between a web client (like a browser) and a server.
+  HTTP uses peer-to-peer architecture. 
+  HTTP functions in a serverless architecture. 
+ 
+Question 2
+5 / 5 pts
+What are the different parts of an HTTP request?
+  The request line, the request headers, and an optional request body 
+Correct, these are the fundamental components that make up an HTTP request, ensuring proper communication and data transfer between the client and the server.
+  The method, the URI, and the protocol version 
+  The request method, the path, and the query parameters 
+  Status line, status headers, and status body 
+ 
+Question 3
+5 / 5 pts
+Which part of an HTTP request is optional?
+  The request headers 
+  The request line 
+  The request method 
+  The request body 
+Correct. The request body is not required for all types of HTTP requests, such as GET requests, making it optional.
+ 
+Question 4
+5 / 5 pts
+What are the three parts of an HTTP response?
+  The request line, the request headers, and the request body 
+  The method, the status, and the message 
+  The status line, the response headers, and the response body 
+Correct. These components form the structure of an HTTP response, each serving a specific purpose in delivering the response to the client.
+  The protocol, the status code, and the status message 
+ 
+Question 5
+5 / 5 pts
+Which number class of status codes represent errors?
+
+ 
+
+  100 and 200 
+  200 and 300 
+  400 and 500 
+The 400 and 500 series of status codes are designated for indicating various client and server errors, respectively.
+  300 and 400 
+ 
+Question 6
+5 / 5 pts
+What are the two most common request methods a security professional encounters?
+  GET and POST requests 
+GET and POST are the most widely used HTTP request methods, commonly encountered and scrutinized by security professionals.
+  CONNECT and PATCH requests 
+  TRACE and OPTIONS requests 
+  PUT and DELETE requests 
+ 
+Question 7
+5 / 5 pts
+Which type of HTTP request method is used for sending data?
+  GET 
+  POST 
+Correct. The POST method is specifically designed to submit data to be processed to a specified resource.
+  DELETE 
+  HEAD 
+ 
+Question 8
+5 / 5 pts
+What are the advantages of using curl over the browser?
+  It provides a graphical user interface for easier navigation. 
+  It automatically stores cookies and session data for subsequent requests. 
+  It allows you to easily see the response status lines. It is repeatable, can be automated, and can be edited while in use. 
+Correct. curl is a versatile command-line tool used for making network requests, offering detailed control and visibility over the requests and responses.
+  It can render JavaScript and display images and CSS like a browser. 
+ 
+Question 9
+5 / 5 pts
+Which curl option is used to change the request method?
+  -d 
+  -F 
+  -A 
+  -X 
+Correct. The -X option in curl explicitly specifies the request method to be used when communicating with the server.
+ 
+Question 10
+5 / 5 pts
+Which curl option is used to set request headers?
+  -X 
+  -i 
+  -H 
+Correct.  The -H option in curl is used to specify custom headers to be sent with the request.
+  -G 
+ 
+Question 11
+5 / 5 pts
+Which request method might an attacker use to figure out which HTTP requests an HTTP server will accept?
+  OPTIONS 
+Correct. The OPTIONS method is used to describe the communication options for the target resource, revealing methods that the server supports.
+  GET 
+  POST 
+  HEAD 
+ 
+Question 12
+3 / 3 pts
+Which response header sends a cookie to the client?
+  Accept-Encoding 
+  Content-Type 
+  Set-Cookie 
+Correct, the  Set-Cookie header is specifically used to send cookies from the server to the client. The Content-Type header indicates the media type of the resource, Server header describes the software used by the originating server, and Accept-Encoding is a request header that indicates the encoding formats accepted by the client.
+  Server 
+ 
+Question 13
+5 / 5 pts
+The following is an example HTTP request:
+
+ 
+
+POST /login.php HTTP/1.1
+Host: example.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 34
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+username=Barbara&password=password
+
+
+What is the request method?
+
+  login.php 
+  POST 
+Correct. This is a POST request.
+  GET 
+  gzip 
+ 
+Question 14
+5 / 5 pts
+Sample HTTP request:
+
+
+POST /login.php HTTP/1.1
+Host: example.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 34
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+
+username=Barbara&password=password
+
+Which header expresses the client's preference for an encrypted response?
+
+  Upgrade-Insecure-Requests: 1 
+Correct, this header is the browser requesting an encrypted response.
+  Connection: keep-alive 
+  Content-Type: application/x-www-form-urlencoded 
+  User-Agent: Mozilla/5.0 
+ 
+Question 15
+5 / 5 pts
+HTTP/1.1 200 OK
+Date: Mon, 16 Mar 2020 17:05:43 GMT
+Last-Modified: Sat, 01 Feb 2020 00:00:00 GMT
+Content-Encoding: gzip
+Expires: Fri, 01 May 2020 00:00:00 GMT
+Server: Apache
+Set-Cookie: SessionID=5
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type: NoSniff
+X-Frame-Options: DENY
+X-XSS-Protection: 1; mode=block
+ 
+
+What is the response status code?
+
+  5 
+  8 
+  2020 
+  200 
+Correct. 200 status means the request was OK.
+ 
+Question 16
+3 / 3 pts
+What are the individual components of microservices called?
+  Procedures 
+  Functions 
+  Modules 
+  Services 
+Correct. When a monolith's components are separated by functions, they are called services.
+ 
+Question 17
+5 / 5 pts
+What is a service that writes to a database and communicates to other services?
+  An application programming interface (API) 
+ Correct. An API is the correct answer because it provides a set of protocols and tools for building software and applications, allowing different services to communicate with each other and with databases.
+  A protocol suite 
+  A middleware application 
+  A data entry interface 
+ 
+Question 18
+5 / 5 pts
+What tool can be used to deploy multiple containers at once?
+  Docker Hub 
+  Docker Compose 
+Correct. Docker Compose is specifically designed for defining and running multi-container Docker applications, making it the right tool for deploying multiple containers simultaneously.
+  Kubernetes 
+  Docker Swarm 
+ 
+Question 19
+5 / 5 pts
+What kind of file format is required for us to deploy a container set?
+  JSON 
+  YAML 
+Correct. Docker Compose uses a YAML file (docker-compose.yml) to define services, networks, and volumes for docker containers, making it the standard for defining and running multi-container Docker applications.
+  XML 
+  INI 
+ 
+Question 20
+4 / 4 pts
+Which type of SQL query would we use to see all the information in a table called "Customers"?
+  ALTER TABLE customers; 
+  UPDATE customers; 
+  SELECT * FROM customers; 
+Correct. The SELECT * FROM customers; query is used to retrieve all data from the customers table, making it the correct choice for viewing all information in a table.
+  CREATE TABLE customers; 
+ 
+Question 21
+5 / 5 pts
+Which type of SQL query would we use to enter new data into a table?
+  SELECT FROM 
+  DELETE FROM 
+  UPDATE 
+  INSERT INTO 
+Correct. The INSERT INTO statement is used to add new rows of data to a table in the database, making it the correct choice for entering new data into a table.
+Quiz Score: 100 out of 100

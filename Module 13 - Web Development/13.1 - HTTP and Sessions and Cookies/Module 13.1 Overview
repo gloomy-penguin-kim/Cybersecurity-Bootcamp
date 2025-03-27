@@ -1,0 +1,30 @@
+13.1
+Lesson 1: HTTP with Sessions and Cookies
+Overview
+Today's class will introduce HTTP through the web client–server model and explore web application session management through cookies.
+
+What You'll Learn
+By the end of today's class, you'll be able to:
+
+Understand HTTP requests and responses.
+
+Use the curl command-line tool to make GET and POST requests and examine the responses.
+
+Manage cookies using the Chrome extension, Cookie-Editor.
+
+Use Chrome's Developer Tools to audit HTTP request and response headers.
+
+Slides
+Class SlidesLinks to an external site.
+
+Student Guide
+Student Guide M13.1Links to an external site.
+
+Today's Activities
+Activity File: HTTP Requests and ResponsesLinks to an external site.: In this activity, you'll combine your research and critical thinking skills to investigate the HTTP sequences of a web attack that occurred on a company's servers.
+
+Activity File: Inspect with Developer ToolsLinks to an external site. In this activity, you'll use your browser's developer tools to examine HTTP requests and responses, particularly security headers.
+
+Activity File: Using curlLinks to an external site. In this activity, you'll write curl commands to interact with an HTTP web server. You will use various curl options, request methods, and request headers to return specific responses.
+
+Activity File: Swap SessionsLinks to an external site. In this activity, you'll use the Chrome browser extension, Cookie-Editor, with a fictional company's WordPress site to examine the process an attacker migt take to hijack a session.
