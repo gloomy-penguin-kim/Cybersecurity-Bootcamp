@@ -1,0 +1,18 @@
+17.1
+Lesson 1: Web Application CTF
+Overview
+Today, you'll begin your second project. In this project, you'll use the skills that you learned in the Offensive Security unit to attack a fictional organization, Rekall Corporation, and determine its vulnerabilities. As you do so, you will look for "flags" within the organization's web application and operating systems that you'll collect in a competition-style Capture the Flag (CTF) game. Today, you will attempt to exploit vulnerabilities in the organization's web application.
+
+What You’ll Learn
+By the end of today’s class, you will:
+
+Find flags by exploiting vulnerabilities in a fictional organization's web application.
+Class Slides
+SlidesLinks to an external site.
+
+Today’s Activities
+Attacking the web application: In today's portion of Project 2, you are tasked with finding all vulnerabilities in Rekall's new web application. There are 15 "flags" hidden across the web application, and a flag will display once you successfully exploit a vulnerability.
+
+Your instructor will send out your student guide to complete today's tasks.
+
+As you work, remember to take screenshots of your vulnerability findings and to update your penetration testing summary report. You can use this templateLinks to an external site. for your report (remember to make a copy first!).

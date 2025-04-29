@@ -1,0 +1,18 @@
+17.3
+Lesson 3: Windows Servers CTF
+Overview
+In today's class, you will continue to exploit Rekall's technical infrastructure by focusing on its Windows servers and vulnerabilities related to Windows operating systems. You will continue finding flags during your exploitation.
+
+What You’ll Learn
+By the end of today’s class, you will:
+
+Find flags by exploiting vulnerabilities in a fictional organization's Windows servers.
+Class Slides
+SlidesLinks to an external site.
+
+Today’s Activities
+Exploiting Windows servers: In today's portion of Project 2, you are tasked with finding all vulnerabilities in Rekall's Windows servers. As in Day 1 and 2's activities, you are also tasked with finding "flags" by exploiting these vulnerabilities.
+
+Your instructor will send out your student guide to complete today's tasks.
+
+As you work, remember to take screenshots of your vulnerability findings and to update your penetration testing summary report.

@@ -1,0 +1,92 @@
+Module 16 Challenge
+Due Apr 28 at 10:59pm Points 100 Questions 10 Time Limit None Allowed Attempts 5
+Instructions
+In this challenge you will complete a quiz on what we learned in week 15 & 16.
+
+Attempt History
+Attempt	Time	Score
+LATEST	Attempt 1	6 minutes	90 out of 100
+ Answers will be shown after your last attempt
+Score for this attempt: 90 out of 100
+Submitted Apr 27 at 11:13am
+This attempt took 6 minutes.
+ 
+Question 1
+10 / 10 pts
+What is the primary advantage of attackers using “Living Off the Land” (LOTL) techniques?
+  It allows attackers to execute malware more efficiently 
+  It helps evade detection by using trusted system tools 
+  It enables attackers to create custom exploits for each target 
+  It requires no prior knowledge of Windows Systems 
+ 
+Question 2
+10 / 10 pts
+Which of the following Windows utilities is commonly abused to execute remote scripts?
+  Windows Management Instrumentation (wmic.exe) 
+  Task Manager (taskmgr.exe) 
+  Event Viewer (eventvwr.exe) 
+  Group Policy Editor (gpedit.msc) 
+ 
+Question 3
+10 / 10 pts
+Which of the following commands is used to retrieve saved RDP credentials?
+  `whoami /priv` 
+  `schtasks /query /fo LIST /v` 
+  `reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run"` 
+  `cmdkey /list` 
+ 
+Question 4
+10 / 10 pts
+How do attackers use scheduled tasks for persistence?
+  By scheduling a malicious script to run at user login 
+  By modifying the firewall rules to block detection tools 
+  By encrypting all system files and demanding a ransom 
+  By overriding critical systems to prevent system boot 
+ 
+IncorrectQuestion 5
+0 / 10 pts
+Which username is used for the 'root' equivalent account in Windows?
+  SYSTEM 
+  admin 
+  Administrator 
+  root 
+ 
+Question 6
+10 / 10 pts
+Which protocol is commonly used for communication between domain controllers and clients in a Windows domain?
+  FTP 
+  HTTP 
+  LDAP 
+  SSH 
+ 
+Question 7
+10 / 10 pts
+What is the purpose of Kerberos in a Windows domain environment?
+  Network traffic encryption 
+  User and service authentication 
+  File integrity checking 
+  Monitoring logins 
+ 
+Question 8
+10 / 10 pts
+What type of attack targets the misuse of Kerberos tickets to elevate privileges in a domain?
+  Pass-the-Hash 
+  SQL Injection 
+  DDoS 
+  Kerberoasting 
+ 
+Question 9
+10 / 10 pts
+What is the purpose of the net user command in a Windows environment?
+  Deleting system files 
+  Managing user accounts 
+  Monitoring network packets 
+  Auditing user login activity 
+ 
+Question 10
+10 / 10 pts
+Which Windows feature allows the automatic execution of tasks based on a schedule or trigger?
+  Task Scheduler 
+  Group Policy Editor 
+  Event Viewer 
+  Performance Monitor 

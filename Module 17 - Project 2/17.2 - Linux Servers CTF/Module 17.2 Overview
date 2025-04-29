@@ -1,0 +1,18 @@
+17.2
+Lesson 2: Linux Servers CTF
+Overview
+In today's class, you will continue to exploit Rekall's technical infrastructure. You'll focus on Rekall's Linux servers and vulnerabilities related to Linux operating systems. You will continue finding flags during your exploitation.
+
+What You’ll Learn
+By the end of today’s class, you will:
+
+Find flags by exploiting vulnerabilities in a fictional organization's Linux servers.
+Class Slides
+SlidesLinks to an external site.
+
+Today’s Activities
+Attacking Linux servers: In today's portion of Project 2, you are tasked with finding all vulnerabilities in Rekall's Linux servers. As in Day 1's activity, you are also tasked with finding "flags" by exploiting these vulnerabilities.
+
+Your instructor will send out your student guide to complete today's tasks.
+
+As you work, remember to take screenshots of your vulnerability findings and to update your penetration testing summary report.
