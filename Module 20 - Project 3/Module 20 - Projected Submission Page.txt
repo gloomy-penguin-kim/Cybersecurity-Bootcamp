@@ -1,0 +1,30 @@
+Project 3
+Due Tuesday by 10:59pm Points 100 Submitting a text entry box or a website url
+Building a Security Monitoring Environment
+This week, you used Splunk to build a custom security monitoring environment for a fictional organization, tested that environment against simulated attacks, and presented your monitoring environment to the class. There is no additional Challenge assignment this week.
+
+As you worked on Project 3 throughout the week, you should have completed the Project 3 Review QuestionsLinks to an external site. and a Project 3 PresentationLinks to an external site.. These documents are your Project 3 deliverables.
+
+note
+Make sure that your presentation includes the appropriate screenshots of your monitoring environment.
+
+Although you worked on this project in a group, you must submit your deliverables individually. Follow the guidelines to submit your deliverables through Canvas.
+
+Submission Guidelines
+After you complete your copy of the Project 3 Review Questions, title it with the following format: < YOUR NAME >< Project 3 Review Questions >.
+Place this document in a new folder on your Google Drive, and title this folder with the following format: < Your Name >< Project 3 >.
+Place a copy of your group's Project 3 slide presentation in this same folder.
+Make sure to set the file permissions for both of these documents and the containing folder so that anyone can view and comment on them.
+Submit the URL of this Google Drive folder through Canvas.
+Plagiarism Disclaimer
+No matter how difficult the course becomes, you must always turn in original work. Plagiarism is not tolerated. If your instructional or support staff determine that you have plagiarized work, your Student Success Manager will determine the appropriate course of action based on university policy. Such actions may include, but are not limited to, a documented plagiarism discussion, an incomplete or failing grade, or ineligibility to receive the Certificate of Completion.
+
+It is your responsibility to include a note in the READ ME section of your repo specifying code source and its location within your repo (If Applicable). This applies if you have worked with a peer on an assignment, used code you did not author or create, sourced from a forum such as Stack Overflow, or received code outside curriculum content from support staff such as an Instructor, TA, Tutor, or Learning Assistant. This will provide visibility to grading staff of your circumstances to avoid flagging your work as plagiarized.
+
+If you are struggling with a challenge or any aspect of the curriculum, please remember there are student support services available for you:
+
+class Slack channel/peer support
+AskBCS Learning AssistantsLinks to an external site.
+Office hours facilitated by your TA(s)
+Tutor GuidelinesLinks to an external site. (schedule a session in the "Tutor Sessions" section of Bootcampspot - Canvas
+If the above resources are not applicable and you have a need, please reach out to a member of your instructional team, your Student Success Manager, or submit a support ticket here.Links to an external site.

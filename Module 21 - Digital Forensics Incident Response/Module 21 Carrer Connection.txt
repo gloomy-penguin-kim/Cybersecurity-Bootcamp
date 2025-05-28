@@ -1,0 +1,6 @@
+Career Connection: Digital Forensics in the Workplace
+Digital forensics is an exciting career path for cybersecurity professionals. Your day-to-day responsibilities can vary widely depending on the environment or company you are working for.
+
+Some digital forensic professionals work for local, state, or federal governments, usually attached to law enforcement. In these roles, you can expect a steady stream of cases that differ in complexity and focus. Others work for end-user organizations as part of corporate security functions. These roles tend to have less of an endless stream of work but deal with a lot of data recovery and e-discovery work on top of pure forensics. Finally, some work for service providers, supporting corporations and litigation. The nature of this work tends to make the lives of forensic techs more specialized, but they have a lot of work to do, and it can be very interesting.
+
+If you are interested in a digital forensics career, consider the environment you want to work in. Seek out and interview people in each environment to help you decide.

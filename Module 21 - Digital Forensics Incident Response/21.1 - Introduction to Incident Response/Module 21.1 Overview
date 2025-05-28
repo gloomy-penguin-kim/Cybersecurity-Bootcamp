@@ -1,0 +1,24 @@
+21.1
+Lesson 1: Introduction to Incident Response
+Overview
+In today's class, we'll introduce the field of Incident Response. We will cover IR processes, plans, procedures and tools used by Incident responders today.
+
+What You’ll Learn
+By the end of today’s class, you’ll be able to:
+
+Identify the types of incidents typically escalated to incident response managers
+List the team which make up a SIRT and their roles.
+Identify how an incident response plan can guide the SIRT when an incident occurs.
+Use the malware testing tool any.run to dynamically analyze ransomware.
+Slide Deck
+link to slidesLinks to an external site.
+
+Student Guide
+Student GuideLinks to an external site.
+
+Today’s Activities
+Escalate or Not?Links to an external site.: In this activity, you are SOC analysts working for a Financial Services Organization. There has been multiple security issues at your organization and your task is to review several security incidents and determine if these require escalation to the SIRT
+
+Interpreting IR PlansLinks to an external site.: In this activity, you will compare and contrast several incident response plans from different companies and industries.
+
+Analyzing Ransomware with any.runLinks to an external site.: In the final activity, you will play the role of an incident responder tasked with analyzing a malware which infected a user’s computer at your organization. You are tasked with safely analyzing the provided malware, and completing a report about the impact to your organization.
